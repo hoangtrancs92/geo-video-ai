@@ -1,0 +1,15 @@
+{
+  "sourceId": "natural-earth-110m",
+  "sourceUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+  "license": "Public domain",
+  "licenseUrl": "https://github.com/nvkelso/natural-earth-vector/blob/master/LICENSE.md",
+  "sourceDescription": "Natural Earth 1:110m Admin 0 countries, de facto boundary depiction",
+  "boundaryCaveat": "Generalized cartography. Territorial status and disputed boundaries require editorial review.",
+  "retrievedAt": "2026-10-14T18:01:04.257Z",
+  "rawSha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+  "normalizedSha256": "695b0b7cacde3d8d387f800c956b63642020d1c82f96698fed8eba60007be7b5",
+  "rawBytes": 838726,
+  "normalizedBytes": 271691,
+  "featureCount": 177,
+  "sourceMode": "pinned-local"
+}

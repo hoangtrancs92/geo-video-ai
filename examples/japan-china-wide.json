@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "japan-china-wide-proof",
+  "title": "Japan and China — widescreen layout proof",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "codec": "h264",
+    "quality": "draft"
+  },
+  "locale": "en-US",
+  "map": {
+    "styleId": "local-dark",
+    "attribution": true,
+    "projection": "mercator",
+    "geojsonPath": "assets/geodata/natural-earth-jpn-chn.geojson",
+    "attributionText": "Map data: Natural Earth 110m · boundaries for illustration"
+  },
+  "defaults": {
+    "theme": "midnight-blue",
+    "motion": "balanced",
+    "safeMarginsPx": 90
+  },
+  "audio": {
+    "voiceover": null,
+    "music": null,
+    "duckingDb": -12
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "startFrame": 0,
+      "durationFrames": 100,
+      "stylePreset": "A",
+      "variant": "route-reveal",
+      "title": "Japan and China",
+      "camera": {
+        "from": {
+          "center": [
+            84.36156946939259,
+            39.16850143866498
+          ],
+          "zoom": 3.1098980940234453,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            84.36156946939259,
+            39.16850143866498
+          ],
+          "zoom": 3.2298980940234454,
+          "pitch": 0,
+          "bearing": 4
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "JPN",
+          "fill": "#F43F6E",
+          "effect": "pulse"
+        },
+        {
+          "featureId": "CHN",
+          "fill": "#38C8ED",
+          "effect": "solid"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Tokyo",
+          "position": [
+            139.6917,
+            35.6895
+          ],
+          "startFrame": 25,
+          "endFrame": 100
+        },
+        {
+          "text": "Beijing",
+          "position": [
+            116.4074,
+            39.9042
+          ],
+          "startFrame": 35,
+          "endFrame": 100
+        }
+      ],
+      "routes": [
+        {
+          "id": "tokyo-beijing-illustrative",
+          "from": [
+            139.6917,
+            35.6895
+          ],
+          "to": [
+            116.4074,
+            39.9042
+          ],
+          "color": "#9BEFFF",
+          "effect": "reveal"
+        }
+      ],
+      "transitionOut": "fade"
+    },
+    {
+      "id": "c",
+      "startFrame": 100,
+      "durationFrames": 100,
+      "stylePreset": "C",
+      "variant": "country-prism",
+      "title": "Illustrative extrusion",
+      "camera": {
+        "from": {
+          "center": [
+            81.59519356616053,
+            39.30673615573986
+          ],
+          "zoom": 2.959898094023445,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            81.59519356616053,
+            39.30673615573986
+          ],
+          "zoom": 2.959898094023445,
+          "pitch": 55,
+          "bearing": 12
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "CHN",
+          "fill": "#38C8ED",
+          "effect": "rise",
+          "extrudeMeters": 500000
+        }
+      ],
+      "labels": [],
+      "transitionOut": "fade"
+    },
+    {
+      "id": "d",
+      "startFrame": 200,
+      "durationFrames": 100,
+      "stylePreset": "D",
+      "variant": "split-comparison",
+      "title": "Map source and scale",
+      "camera": {
+        "from": {
+          "center": [
+            85.8741038053276,
+            37.26734828877534
+          ],
+          "zoom": 3.151718269718072,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            85.8741038053276,
+            37.26734828877534
+          ],
+          "zoom": 3.151718269718072,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "easing": "linear"
+      },
+      "cards": [
+        {
+          "heading": "Map data",
+          "value": "Natural Earth 110m",
+          "source": "Natural Earth; generalized de facto boundaries"
+        }
+      ]
+    }
+  ]
+}

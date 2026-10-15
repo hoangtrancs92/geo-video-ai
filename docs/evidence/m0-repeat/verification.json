@@ -1,0 +1,16 @@
+{
+  "comparison": {
+    "status": "pixel-identical",
+    "comparedFrames": 100,
+    "mismatches": [],
+    "environmentMatch": true,
+    "buildMatch": true,
+    "encodedBytesMatch": true
+  },
+  "artifactChecksumsVerified": 3,
+  "ffprobeVerified": 3,
+  "reusedChunks": 1,
+  "newFramesAfterResume": 50,
+  "scaleBenchmark": false,
+  "remotionComparison": false
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "assets": [
+    {
+      "path": "assets/geodata/synthetic-regions.geojson",
+      "kind": "geojson",
+      "sha256": "e2ce45d7c25c3207d7b5b939c820ee894cf4785a5f57c177318cad94cb46f1fb",
+      "sourceId": "synthetic-regions",
+      "license": "CC0-1.0",
+      "attribution": "Original synthetic geometry; not real national boundaries"
+    },
+    {
+      "path": "assets/geodata/natural-earth-jpn-chn.geojson",
+      "kind": "geojson",
+      "sha256": "558f3eda35cf13afaaa6f26d947d96b1bc26f4060654592d172714a49c6c09a1",
+      "sourceId": "natural-earth-110m",
+      "license": "Public domain",
+      "attribution": "Natural Earth 1:110m; generalized de facto boundaries",
+      "metadataPath": "assets/geodata/natural-earth-jpn-chn.manifest.json"
+    },
+    {
+      "path": "assets/geodata/natural-earth-world.geojson",
+      "kind": "geojson",
+      "sha256": "695b0b7cacde3d8d387f800c956b63642020d1c82f96698fed8eba60007be7b5",
+      "sourceId": "natural-earth-110m",
+      "license": "Public domain",
+      "attribution": "Natural Earth 1:110m; generalized de facto boundaries",
+      "metadataPath": "assets/geodata/natural-earth-world.manifest.json"
+    }
+  ]
+}

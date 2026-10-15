@@ -1,0 +1,29 @@
+{
+  "schemaVersion":"1.0",
+  "projectId":"style-c-two-variants",
+  "title":"Illustrative C variants — no measured heights",
+  "output":{"width":1080,"height":1920,"fps":30,"codec":"h264","quality":"draft"},
+  "locale":"en-US",
+  "map":{"styleId":"local-dark","attribution":true,"projection":"mercator",
+    "geojsonPath":"assets/geodata/natural-earth-jpn-chn.geojson",
+    "attributionText":"Map data: Natural Earth 110m · boundaries for illustration"},
+  "defaults":{"theme":"midnight-blue","motion":"balanced","safeMarginsPx":90},
+  "audio":{"voiceover":null,"music":null,"duckingDb":-12},
+  "scenes":[
+    {"id":"prism","startFrame":0,"durationFrames":150,"stylePreset":"C",
+      "variant":"country-prism","title":"China · illustrative prism",
+      "camera":{"from":{"center":[109.609258,33.627216],"zoom":2.588362,"pitch":35,"bearing":0},
+        "to":{"center":[109.609258,33.627216],"zoom":2.588362,"pitch":55,"bearing":12},
+        "easing":"easeInOutCubic"},
+      "regions":[{"featureId":"CHN","fill":"#38C8ED","effect":"rise","extrudeMeters":500000}],
+      "routes":[],"labels":[],"cards":[],"transitionOut":"fade"},
+    {"id":"comparison","startFrame":150,"durationFrames":150,"stylePreset":"C",
+      "variant":"comparison-heights","title":"Two illustrative heights",
+      "camera":{"from":{"center":[109.609258,33.627216],"zoom":2.588362,"pitch":35,"bearing":0},
+        "to":{"center":[109.609258,33.627216],"zoom":2.588362,"pitch":55,"bearing":-12},
+        "easing":"easeInOutCubic"},
+      "regions":[{"featureId":"CHN","fill":"#38C8ED","effect":"rise","extrudeMeters":500000},
+        {"featureId":"JPN","fill":"#F43F6E","effect":"rise","extrudeMeters":250000}],
+      "routes":[],"labels":[],"cards":[],"transitionOut":"cut"}
+  ]
+}

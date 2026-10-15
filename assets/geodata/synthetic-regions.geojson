@@ -1,0 +1,7 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {"type":"Feature","id":"DEMO-1","properties":{"featureId":"DEMO-1","name":"Demo 1"},"geometry":{"type":"Polygon","coordinates":[[[123,34],[125,34],[125,36],[123,36],[123,34]]]}},
+    {"type":"Feature","id":"DEMO-2","properties":{"featureId":"DEMO-2","name":"Demo 2"},"geometry":{"type":"Polygon","coordinates":[[[126,36],[128,36],[128,38],[126,38],[126,36]]]}}
+  ]
+}

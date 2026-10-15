@@ -1,0 +1,29 @@
+{
+  "schemaVersion":"1.0",
+  "projectId":"style-d-two-variants",
+  "title":"Clean infographic layouts — sourced map notes",
+  "output":{"width":1080,"height":1920,"fps":30,"codec":"h264","quality":"draft"},
+  "locale":"en-US",
+  "map":{"styleId":"local-dark","attribution":true,"projection":"mercator",
+    "geojsonPath":"assets/geodata/natural-earth-jpn-chn.geojson",
+    "attributionText":"Map data: Natural Earth 110m · boundaries for illustration"},
+  "defaults":{"theme":"midnight-blue","motion":"calm","safeMarginsPx":90,"subtitlesEnabled":false},
+  "audio":{"voiceover":null,"music":null,"duckingDb":-12},
+  "scenes":[
+    {"id":"split","startFrame":0,"durationFrames":150,"stylePreset":"D",
+      "variant":"split-comparison","title":"Map source and scale",
+      "camera":{"from":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},
+        "to":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},"easing":"linear"},
+      "regions":[],"routes":[],"labels":[],"cards":[
+        {"heading":"Map data","value":"Natural Earth 110m","source":"Natural Earth; generalized de facto boundaries"}],
+      "transitionOut":"fade"},
+    {"id":"editorial","startFrame":150,"durationFrames":150,"stylePreset":"D",
+      "variant":"editorial-card","title":"Check before publication",
+      "camera":{"from":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},
+        "to":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},"easing":"linear"},
+      "regions":[],"routes":[],"labels":[],"cards":[
+        {"heading":"Boundary caveat","value":"Editorial review required","source":"Natural Earth; generalized de facto boundaries"}],
+      "subtitles":[{"text":"Generalized boundaries need editorial review.","startFrame":20,"endFrame":130}],
+      "transitionOut":"cut"}
+  ]
+}

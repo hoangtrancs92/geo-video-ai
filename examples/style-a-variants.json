@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "style-a-three-variants",
+  "title": "Three cinematic A variants — map-only demonstration",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "h264",
+    "quality": "draft"
+  },
+  "locale": "en-US",
+  "map": {
+    "styleId": "local-dark",
+    "attribution": true,
+    "projection": "mercator",
+    "geojsonPath": "assets/geodata/natural-earth-jpn-chn.geojson",
+    "attributionText": "Map data: Natural Earth 110m · boundaries for illustration"
+  },
+  "defaults": {
+    "theme": "midnight-blue",
+    "motion": "balanced",
+    "safeMarginsPx": 90
+  },
+  "audio": {
+    "voiceover": null,
+    "music": null,
+    "duckingDb": -12
+  },
+  "scenes": [
+    {
+      "id": "focus",
+      "startFrame": 0,
+      "durationFrames": 100,
+      "stylePreset": "A",
+      "variant": "cinematic-focus",
+      "title": "Focus: Japan",
+      "camera": {
+        "from": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.788361512482035,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.908361512482035,
+          "pitch": 0,
+          "bearing": 4
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "JPN",
+          "fill": "#F43F6E",
+          "effect": "pulse"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Japan",
+          "position": [
+            138,
+            38
+          ],
+          "startFrame": 20,
+          "endFrame": 100
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": "duel",
+      "startFrame": 100,
+      "durationFrames": 100,
+      "stylePreset": "A",
+      "variant": "cinematic-duel",
+      "title": "Japan and China",
+      "camera": {
+        "from": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.788361512482035,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.908361512482035,
+          "pitch": 0,
+          "bearing": 4
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "JPN",
+          "fill": "#F43F6E",
+          "effect": "solid"
+        },
+        {
+          "featureId": "CHN",
+          "fill": "#38C8ED",
+          "effect": "solid"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Japan",
+          "position": [
+            138,
+            38
+          ],
+          "startFrame": 10,
+          "endFrame": 100
+        },
+        {
+          "text": "China",
+          "position": [
+            105,
+            33
+          ],
+          "startFrame": 10,
+          "endFrame": 100
+        }
+      ],
+      "routes": []
+    },
+    {
+      "id": "route",
+      "startFrame": 200,
+      "durationFrames": 100,
+      "stylePreset": "A",
+      "variant": "route-reveal",
+      "title": "Illustrative connection",
+      "camera": {
+        "from": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.788361512482035,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            109.60925800000001,
+            34.19241564428672
+          ],
+          "zoom": 2.908361512482035,
+          "pitch": 0,
+          "bearing": 4
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "JPN",
+          "fill": "#F43F6E",
+          "effect": "pulse"
+        },
+        {
+          "featureId": "CHN",
+          "fill": "#38C8ED",
+          "effect": "solid"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Tokyo",
+          "position": [
+            139.6917,
+            35.6895
+          ],
+          "startFrame": 25,
+          "endFrame": 100
+        },
+        {
+          "text": "Beijing",
+          "position": [
+            116.4074,
+            39.9042
+          ],
+          "startFrame": 35,
+          "endFrame": 100
+        }
+      ],
+      "routes": [
+        {
+          "id": "tokyo-beijing-illustrative",
+          "from": [
+            139.6917,
+            35.6895
+          ],
+          "to": [
+            116.4074,
+            39.9042
+          ],
+          "color": "#9BEFFF",
+          "effect": "reveal"
+        }
+      ]
+    }
+  ]
+}

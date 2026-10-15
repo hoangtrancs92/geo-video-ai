@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.1",
+  "projectId": "japan-china-documentary-request",
+  "topic": "How should we compare Japan and China using sourced geography and data?",
+  "locale": "en-US",
+  "research": {
+    "facts": [],
+    "sources": []
+  },
+  "narrative": {
+    "thesis": "Explain a sourced comparison without inventing statistics.",
+    "keyPoints": ["Map source and scale", "Comparable measures", "Limitations"]
+  },
+  "production": {
+    "mode": "review_before_render",
+    "defaultTheme": "midnight-blue",
+    "mixStyles": ["A", "C", "D"],
+    "seed": 42
+  },
+  "editionSettings": {
+    "short": {"durationTargetSeconds": 150, "width": 1080, "height": 1920, "fps": 30},
+    "long": {"durationTargetSeconds": 1080, "width": 1920, "height": 1080, "fps": 30}
+  }
+}

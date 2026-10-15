@@ -1,0 +1,54 @@
+{
+  "status": "mode-2-capture-verified",
+  "sourceRun": "run-gXLDuW",
+  "sha256": "c13be68b6dc98c6e1898efc6e84d94a556d1c15db1224c933897621e602a264c",
+  "frames": 100,
+  "uniqueFrameHashes": 100,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 3.3333333333333335,
+  "codec": "h264",
+  "decodedFramesChecked": 100,
+  "maxDecodedBlackFraction": 0,
+  "sentinelRepeatMatches": [
+    {
+      "frame": 99,
+      "match": true,
+      "hash": "bddd76b59e53fb2f3b65d1dd7eeaa4b5109d45bdb6d382bb86bcecf02fe9c57f"
+    },
+    {
+      "frame": 50,
+      "match": true,
+      "hash": "a275c90f6fa1c53b8657376e423ebb07a06d58bbae06a983e4ca5c4f124263b5"
+    },
+    {
+      "frame": 0,
+      "match": true,
+      "hash": "c3f458e159cb4300af141b82b3b49b0876f134c3bafa0c5d09d9add3f79b3241"
+    },
+    {
+      "frame": 75,
+      "match": true,
+      "hash": "c33c4d04307f48b301bbea133aec1be4fcc26a9c17c3eed6e911802f8a582768"
+    },
+    {
+      "frame": 25,
+      "match": true,
+      "hash": "897302cdde041810663fc28635d87dce205254d1abc9a4af8e762d3d1b62ee5f"
+    }
+  ],
+  "meanCaptureMs": 1480.2172444199982,
+  "webgl": {
+    "supported": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)"
+  },
+  "chromium": "155.0.8059.40",
+  "limitations": [
+    "Original synthetic geometry, not country boundaries",
+    "Repeat checks use one browser session",
+    "Remotion comparison and second full render pending"
+  ]
+}

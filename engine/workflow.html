@@ -1,0 +1,184 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Documentary workflow</title><style>
+body{font:16px system-ui;background:#101923;color:#edf3f8;max-width:960px;margin:32px auto;padding:0 18px}
+h1{font-size:30px}p{line-height:1.5}form,.card{background:#1c2b38;border:1px solid #344759;border-radius:12px;padding:20px;margin:16px 0}
+input,textarea,select{width:70%;padding:10px;background:#0d1720;color:white;border:1px solid #6c8397;border-radius:6px}
+textarea{min-height:110px}label{display:block;margin-top:12px}section{border-top:1px solid #344759;margin-top:18px;padding-top:12px}
+button{padding:10px 16px;background:#2eab9d;color:#071615;border:0;border-radius:6px;cursor:pointer}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}nav button{background:#33495b;color:#fff}
+pre{white-space:pre-wrap;overflow:auto;max-height:65vh}small{color:#bed0dd}
+.editorGrid{display:grid;grid-template-columns:minmax(0,2fr) minmax(240px,1fr);gap:18px}
+.editorGrid input,.editorGrid textarea{box-sizing:border-box;width:100%}
+.segment{border:1px solid #456174;border-radius:8px;padding:12px;margin:12px 0}
+.segment textarea{min-height:140px}.facts{max-height:650px;overflow:auto}.facts p{border-bottom:1px solid #344759;padding-bottom:12px}
+.reviewCard{border:1px solid #456174;border-radius:8px;padding:14px;margin:14px 0}.reviewCard h4{margin:0 0 8px}
+.reviewCard p{margin:8px 0}.reviewCard a{color:#8de2d8}.reviewCard select,.reviewCard textarea{box-sizing:border-box;width:100%}
+.reviewGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.reviewMeta{color:#bed0dd;font-size:14px;overflow-wrap:anywhere}
+@media(max-width:700px){.editorGrid{grid-template-columns:1fr}}
+@media(max-width:700px){.reviewGrid{grid-template-columns:1fr}}
+</style></head><body><h1>Documentary workflow</h1>
+<p>Nhập đường dẫn dossier JSON trong dự án. Hệ thống kiểm tra dữ liệu và nguồn gốc rồi tạo brief cho bản short và long. Kịch bản, audio và render cần các bước duyệt riêng.</p>
+<form id="form"><label for="dossier">Dossier</label><br><input id="dossier" value="examples/evidence-map-dossier.json" required> <button>Tạo dự án</button></form>
+<div class="card"><h2 id="title">Chưa chọn dự án</h2><small id="status"></small><nav id="tabs"></nav><pre id="data"></pre></div>
+<div class="card"><h2>Các bước biên tập</h2>
+<section><h3>1. Duyệt claim</h3><p>Chọn kết luận và trạng thái cho từng claim cần xử lý. Chỉ các phiếu có quyết định mới được gửi; cần ghi lý do ít nhất 10 ký tự. Nguồn có hạn chế quyền sử dụng và các khoảng trống nghiên cứu vẫn phải được xử lý riêng.</p>
+<label>Người duyệt <input id="evidenceReviewer" autocomplete="name"></label><p id="reviewStatus" aria-live="polite">Chọn dự án để xem claim.</p><div id="reviewList"></div>
+<button id="review">Lưu phiên bản dossier đã duyệt</button></section>
+<section><h3>2. Bản nháp lời dẫn và duyệt kịch bản</h3><p>Bản nháp chỉ chép claim đã duyệt, có nguồn; người biên tập phải viết thành hai kịch bản hoàn chỉnh.</p>
+<button id="generateDraft">Tạo bản nháp lời dẫn</button><p>ContentProject phải là bản đã biên tập và khớp chính xác claim, nguồn của dossier.</p>
+<label>Đường dẫn ContentProject JSON <input id="contentPath"></label><label>Người duyệt <input id="scriptReviewer"></label>
+<label>Ghi chú duyệt <input id="scriptNote"></label><button id="approveScripts">Duyệt kịch bản</button></section>
+<section><h3>Biên tập short / long</h3><p>Nạp ContentProject JSON đã có scene và outline. Sửa lời dẫn và mã claim cho từng đoạn; lưu bản nháp trước khi duyệt. Claim và nguồn trong dossier hiển thị cạnh bản thảo. Bản nháp chưa phải video.</p>
+<input id="contentUpload" type="file" accept=".json,application/json"> <button id="loadDraft">Mở bản nháp đã lưu</button>
+<nav><button id="editShort">Short 9:16</button><button id="editLong">Long 16:9</button></nav>
+<small id="editorStatus">Chưa nạp ContentProject.</small>
+<div class="editorGrid"><div id="scriptEditor"></div><aside class="facts" id="factPane"></aside></div>
+<button id="saveDraft">Lưu bản nháp và kiểm tra</button></section>
+<section><h3>3. Giọng đọc</h3><p>Manifest phải khớp từng đoạn lời trong ContentProject đã duyệt. Voice WAV được lưu tại outputs/speech/&lt;projectId&gt;/&lt;edition&gt;/voice.wav.</p>
+<label>Edition <select id="audioEdition"><option value="short">short</option><option value="long">long</option></select></label>
+<label>Speech manifest JSON <input id="speechManifest"></label><button id="assembleAudio">Ghép giọng đọc</button></section>
+<section><h3>4. Chuẩn bị render</h3><label>Template short <input id="shortTemplate" value="examples/japan-china-map.json"></label>
+<label>Template long <input id="longTemplate" value="examples/japan-china-wide.json"></label>
+<button id="prepare">Chuẩn bị hai bản</button></section>
+<section><h3>5. Render</h3><p>Xem kế hoạch trước khi chạy. Render thật chạy nền; trạng thái và log được lưu trong outputs/workflow.</p>
+<button id="plan">Xem kế hoạch</button> <button id="render">Bắt đầu render</button>
+<button id="retryLong">Tiếp tục bản long</button></section>
+<section><h3>6. QA kỹ thuật</h3><p>Kiểm tra file MP4, hash, frame và audio. Kết quả kỹ thuật chưa thay thế duyệt hình, nghe và nội dung.</p>
+<button id="qaRun">Chạy QA</button></section></div>
+<script>
+const views=['evidence','scripts','narration-draft','artifacts','qa','events'];let current='',job=null;
+let editedContent=null,draftSha=null,editKind='short';
+const data=document.querySelector('#data'),title=document.querySelector('#title'),status=document.querySelector('#status');
+const editorStatus=document.querySelector('#editorStatus'),scriptEditor=document.querySelector('#scriptEditor');
+const reviewStatus=document.querySelector('#reviewStatus'),reviewList=document.querySelector('#reviewList');
+let reviewRows=[],gapReviewRows=[];
+function reviewText(parent,value,className='reviewMeta'){const p=document.createElement('p');p.className=className;p.textContent=value;parent.append(p)}
+function reviewSelect(label,options){const wrap=document.createElement('label');wrap.textContent=label;
+ const control=document.createElement('select');for(const [value,text] of options){const option=document.createElement('option');option.value=value;option.textContent=text;control.append(option)}
+ wrap.append(control);return {wrap,control}}
+function reviewCount(){const selected=reviewRows.filter(row=>row.verdict.value||row.approval.value).length;
+ const gaps=gapReviewRows.filter(row=>row.resolve.checked).length;
+ const counter=document.querySelector('#reviewSelected');if(counter)counter.textContent=`${selected} claim và ${gaps} khoảng trống sẽ được gửi.`}
+async function loadReview(){reviewList.replaceChildren();reviewRows=[];gapReviewRows=[];if(!current)return;
+ const id=current;try{const response=await fetch(`/api/documentaries/${encodeURIComponent(id)}/evidence`);
+  const dossier=await response.json();if(id!==current)return;if(!response.ok)throw Error(dossier.error??'Không đọc được dossier.');
+  const sources=new Map((dossier.sources??[]).map(source=>[source.id,source]));
+  const observations=new Map((dossier.observations??[]).map(item=>[item.id,item]));
+  const claims=dossier.claims??[],approved=claims.filter(item=>item.approval==='approved').length;
+  reviewStatus.textContent=`${claims.length} claim · ${approved} đã duyệt · ${(dossier.gaps??[]).filter(gap=>gap.priority==='high').length} khoảng trống mức cao. Phiên bản dossier: ${job?.dossierSha256?.slice(0,12)??'?'}.`;
+  const selected=document.createElement('p');selected.id='reviewSelected';reviewList.append(selected);
+  for(const gap of dossier.gaps??[]){const card=document.createElement('article');card.className='reviewCard';
+   const heading=document.createElement('h4');heading.textContent=`Khoảng trống ${gap.priority}`;card.append(heading);
+   reviewText(card,gap.question,'');reviewText(card,gap.reason);
+   const wrap=document.createElement('label');const resolve=document.createElement('input');
+   resolve.type='checkbox';resolve.style.width='auto';resolve.onchange=reviewCount;
+   wrap.append(resolve,' Đã xử lý bằng bằng chứng hoặc quyết định giới hạn phạm vi');card.append(wrap);
+   const reason=document.createElement('textarea');reason.placeholder='Ghi rõ cách xử lý và giới hạn còn lại, ít nhất 20 ký tự';
+   reason.setAttribute('aria-label',`Cách xử lý: ${gap.question}`);card.append(reason);
+   reviewList.append(card);gapReviewRows.push({question:gap.question,resolve,reason})}
+  for(const claim of claims){const card=document.createElement('article');card.className='reviewCard';
+   const heading=document.createElement('h4');heading.textContent=`${claim.id} · ${claim.approval}`;card.append(heading);
+   reviewText(card,claim.text,'');if(claim.qualifiers?.length)reviewText(card,`Giới hạn: ${claim.qualifiers.join(' · ')}`);
+   reviewText(card,`Trạng thái hiện tại: ${claim.verdict} / ${claim.approval}`);
+   for(const sourceId of claim.sourceIds??[]){const source=sources.get(sourceId),line=document.createElement('p');line.className='reviewMeta';
+    line.append(`${sourceId}: ${source?.title??'Chưa có tiêu đề'} · ${source?.publisher??'Chưa có nhà xuất bản'} · ${source?.license??'Chưa rõ quyền'} · ${source?.allowedForCommercial?'Có đánh dấu dùng thương mại':'Chưa được đánh dấu dùng thương mại'} `);
+    if(source?.url){const link=document.createElement('a');link.href=source.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Mở nguồn';line.append(link)}card.append(line)}
+   for(const evidenceId of claim.evidenceIds??[]){const item=observations.get(evidenceId);
+    reviewText(card,item?`Số liệu ${evidenceId}: ${item.value??'thiếu'} ${item.unit} · ${item.regionCode} · ${item.year??item.period??'chưa rõ kỳ'} · ${item.qualityFlags?.join(', ')??''}`:`Số liệu ${evidenceId}: không tìm thấy trong dossier`)}
+   const grid=document.createElement('div');grid.className='reviewGrid';
+   const verdict=reviewSelect('Kết luận mới',[['','Chưa quyết định'],['supported','Được nguồn hỗ trợ'],['uncertain','Chưa chắc chắn'],['conflicting','Mâu thuẫn'],['unsupported','Không được hỗ trợ']]);
+   const approval=reviewSelect('Trạng thái mới',[['','Chưa quyết định'],['approved','Duyệt'],['needs_review','Cần duyệt thêm'],['needs_research','Cần nghiên cứu'],['rejected','Bác bỏ']]);
+   verdict.control.onchange=reviewCount;approval.control.onchange=reviewCount;grid.append(verdict.wrap,approval.wrap);card.append(grid);
+   const reason=document.createElement('textarea');reason.placeholder='Lý do quyết định, ít nhất 10 ký tự';reason.setAttribute('aria-label',`Lý do cho ${claim.id}`);
+   card.append(reason);reviewList.append(card);reviewRows.push({claimId:claim.id,verdict:verdict.control,approval:approval.control,reason})}
+  reviewCount();
+ }catch(error){reviewStatus.textContent=String(error)}}
+function field(label,value,onchange,multiline=false){const wrap=document.createElement('label');wrap.textContent=label;
+ const control=document.createElement(multiline?'textarea':'input');control.value=value??'';
+ control.oninput=()=>onchange(control.value);wrap.append(control);return wrap}
+function renderEditor(){scriptEditor.replaceChildren();if(!editedContent)return;
+ const edition=editedContent.editions?.[editKind];if(!edition){editorStatus.textContent='Thiếu edition '+editKind;return}
+ scriptEditor.append(field('Tiêu đề',edition.title,value=>edition.title=value),
+   field('Hook',edition.hook??'',value=>{if(value)edition.hook=value;else delete edition.hook}));
+ const summary=document.createElement('p');summary.textContent=`${edition.durationTargetSeconds}s · ${edition.script.length} đoạn · ${edition.scenes.length} scene`;
+ scriptEditor.append(summary);
+ for(const item of edition.script){const card=document.createElement('div');card.className='segment';
+  const heading=document.createElement('strong');heading.textContent=`${item.segmentId} · ${item.targetSeconds}s`;
+  card.append(heading,field('Lời dẫn',item.narration,value=>item.narration=value,true),
+    field('Fact refs (phân cách bằng dấu phẩy)',item.factRefs.join(', '),value=>{
+      item.factRefs=value.split(',').map(part=>part.trim()).filter(Boolean)}));scriptEditor.append(card)}}
+async function showFacts(){const pane=document.querySelector('#factPane');pane.replaceChildren();if(!current)return;
+ const result=await (await fetch(`/api/documentaries/${encodeURIComponent(current)}/evidence`)).json();
+ const heading=document.createElement('h3');heading.textContent='Claim và nguồn';pane.append(heading);
+ const sources=new Map((result.sources??[]).map(source=>[source.id,source]));
+ for(const fact of result.claims??[]){if(fact.approval!=='approved')continue;
+  const p=document.createElement('p');p.textContent=`${fact.id}: ${fact.text} · nguồn: ${fact.sourceIds.map(id=>{
+    const source=sources.get(id);return `${id} (${source?.title??source?.url??source?.localPath??'chưa có tiêu đề'})`}).join(', ')}`;pane.append(p)}
+ if(!(result.claims??[]).some(fact=>fact.approval==='approved'))pane.append('Chưa có claim được duyệt.')}
+async function openDraft(){if(!current)return;const response=await fetch(`/api/documentaries/${encodeURIComponent(current)}/scripts/draft`);
+ const result=await response.json();if(!response.ok){editorStatus.textContent=result.error;return}
+ editedContent=result.content;draftSha=result.sha256;document.querySelector('#contentPath').value=result.path;
+ editorStatus.textContent=`Bản nháp ${draftSha.slice(0,12)} · ${result.check.status}${result.check.reason?' · '+result.check.reason:''}`;
+ renderEditor();await showFacts()}
+async function show(view){if(!current)return;const res=await fetch(`/api/documentaries/${encodeURIComponent(current)}/${view}`);
+ data.textContent=JSON.stringify(await res.json(),null,2);}
+function select(value,refreshReview=false){const projectChanged=current!==value.projectId;if(projectChanged){editedContent=null;draftSha=null;scriptEditor.replaceChildren();
+ editorStatus.textContent='Chưa nạp ContentProject.';document.querySelector('#contentPath').value=''}
+ job=value;current=job.projectId;title.textContent=job.projectId;
+ status.textContent=`Trạng thái: ${job.status} · Evidence: ${job.gates.evidence} · Script: ${job.gates.scripts} · Audio: ${JSON.stringify(job.gates.audio)} · Render: ${job.gates.render} · QA: ${job.gates.qa}`;
+ const tabs=document.querySelector('#tabs');tabs.replaceChildren();for(const view of views){const button=document.createElement('button');
+ button.textContent=view;button.onclick=()=>show(view);tabs.append(button)}show('scripts');if(projectChanged||refreshReview)void loadReview()}
+async function act(action,payload){if(!current){data.textContent='Chọn dự án trước.';return;}
+ const res=await fetch(`/api/documentaries/${encodeURIComponent(current)}/${action}`,{method:'POST',
+ headers:{'content-type':'application/json'},body:JSON.stringify(payload)});
+ const result=await res.json();data.textContent=JSON.stringify(result,null,2);
+ if(res.ok){const fresh=await fetch(`/api/documentaries/${encodeURIComponent(current)}`);select(await fresh.json(),action==='approve-evidence');
+ data.textContent=JSON.stringify(result,null,2)}}
+document.querySelector('#review').onclick=()=>{try{if(!job)throw Error('Chọn dự án trước.');
+ const reviewer=document.querySelector('#evidenceReviewer').value.trim();if(reviewer.length<2)throw Error('Cần tên người duyệt.');
+ const decisions=[];for(const row of reviewRows){if(!row.verdict.value&&!row.approval.value)continue;
+  if(!row.verdict.value||!row.approval.value)throw Error(`${row.claimId}: chọn cả kết luận và trạng thái.`);
+  if(row.approval.value==='approved'&&row.verdict.value!=='supported')throw Error(`${row.claimId}: chỉ duyệt claim được nguồn hỗ trợ.`);
+  const reason=row.reason.value.trim();if(reason.length<10)throw Error(`${row.claimId}: lý do cần ít nhất 10 ký tự.`);
+  decisions.push({claimId:row.claimId,verdict:row.verdict.value,approval:row.approval.value,reason})}
+ const gapDecisions=[];for(const row of gapReviewRows){if(!row.resolve.checked)continue;
+  const reason=row.reason.value.trim();if(reason.length<20)throw Error(`${row.question}: cách xử lý cần ít nhất 20 ký tự.`);
+  gapDecisions.push({question:row.question,reason})}
+ if(!decisions.length&&!gapDecisions.length)throw Error('Chọn ít nhất một claim hoặc khoảng trống cần xử lý.');
+ void act('approve-evidence',{projectId:current,inputSha256:job.dossierSha256,reviewer,
+  reviewedAt:new Date().toISOString(),decisions,gapDecisions})}catch(error){data.textContent=String(error)}};
+document.querySelector('#approveScripts').onclick=()=>act('approve-scripts',{
+ contentPath:document.querySelector('#contentPath').value,reviewer:document.querySelector('#scriptReviewer').value,
+ note:document.querySelector('#scriptNote').value});
+document.querySelector('#generateDraft').onclick=()=>act('scripts/generate',{});
+document.querySelector('#contentUpload').onchange=async event=>{try{
+ const file=event.target.files?.[0];if(!file)return;
+ editedContent=JSON.parse(await file.text());editorStatus.textContent=`Đã nạp ${file.name}; chưa lưu.`;
+ renderEditor();await showFacts()}catch(error){editorStatus.textContent=String(error)}};
+document.querySelector('#loadDraft').onclick=()=>openDraft();
+document.querySelector('#editShort').onclick=()=>{editKind='short';renderEditor()};
+document.querySelector('#editLong').onclick=()=>{editKind='long';renderEditor()};
+document.querySelector('#saveDraft').onclick=async()=>{if(!current||!editedContent){editorStatus.textContent='Cần chọn dự án và nạp ContentProject.';return}
+ const response=await fetch(`/api/documentaries/${encodeURIComponent(current)}/scripts/draft`,{
+   method:'POST',headers:{'content-type':'application/json'},
+   body:JSON.stringify({content:editedContent,expectedSha256:draftSha})});
+ const result=await response.json();if(!response.ok){editorStatus.textContent=result.error;return}
+ editedContent=result.content;draftSha=result.sha256;document.querySelector('#contentPath').value=result.path;
+ editorStatus.textContent=`Đã lưu ${draftSha.slice(0,12)} · ${result.check.status}${result.check.reason?' · '+result.check.reason:''}`;
+ const fresh=await fetch(`/api/documentaries/${encodeURIComponent(current)}`);select(await fresh.json())};
+document.querySelector('#assembleAudio').onclick=()=>act('audio/assemble',{
+ edition:document.querySelector('#audioEdition').value,
+ manifestPath:document.querySelector('#speechManifest').value});
+document.querySelector('#prepare').onclick=()=>act('prepare',{
+ shortTemplate:document.querySelector('#shortTemplate').value,
+ longTemplate:document.querySelector('#longTemplate').value});
+document.querySelector('#plan').onclick=()=>act('render-plan',{});
+document.querySelector('#render').onclick=()=>act('render',{});
+document.querySelector('#retryLong').onclick=()=>act('retry',{edition:'long'});
+document.querySelector('#qaRun').onclick=()=>act('qa/run',{});
+document.querySelector('#form').onsubmit=async event=>{event.preventDefault();
+ const res=await fetch('/api/documentaries',{method:'POST',headers:{'content-type':'application/json'},
+ body:JSON.stringify({dossierPath:document.querySelector('#dossier').value})});const result=await res.json();
+ if(res.ok)select(result);else data.textContent=JSON.stringify(result,null,2)};
+fetch('/api/documentaries').then(response=>response.json()).then(result=>{if(result.items?.length)select(result.items.at(-1))});
+</script></body></html>

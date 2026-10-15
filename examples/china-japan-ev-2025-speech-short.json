@@ -1,0 +1,26 @@
+{
+  "provider": "macos_say",
+  "voiceId": "Linh",
+  "rateWpm": 170,
+  "targetSeconds": 90,
+  "output": {
+    "width": 1080,
+    "height": 1920
+  },
+  "rights": {
+    "license": "macOS built-in voice, local project use",
+    "attribution": "Voice generated locally with Apple Linh"
+  },
+  "segments": [
+    {
+      "id": "short-segment-1",
+      "text": "Khi nói Trung Quốc và Nhật Bản đi hai con đường xe điện, trước tiên phải dùng cùng một thước đo. Trong báo cáo của IEA, xe điện ở đây gồm xe chạy pin hoàn toàn và hybrid có thể sạc ngoài. Hybrid thông thường được tính riêng. Theo thước đo đó, năm 2025 Trung Quốc bán hơn mười ba triệu xe điện, còn Nhật Bản chỉ nhỉnh hơn một trăm nghìn chiếc. Hai con số cho thấy quy mô thị trường khác xa nhau, nhưng không tự chứng minh hãng xe nào tốt hơn, hay nước nào sẽ thắng trong tương lai. Ta cần nhìn tiếp vào tỷ trọng trong toàn bộ ô tô mới bán ra, rồi mới hiểu mỗi thị trường đang ở đâu.",
+      "targetSeconds": 45
+    },
+    {
+      "id": "short-segment-2",
+      "text": "Ở Trung Quốc, xe điện chiếm gần năm mươi lăm phần trăm doanh số ô tô mới trong năm 2025. Tại Nhật Bản, tỷ trọng này dưới ba phần trăm, trong khi hybrid thông thường chiếm khoảng một phần ba. Khác biệt này không có nghĩa người Nhật hoàn toàn quay lưng với điện hóa. Khảo sát JAMA về chiếc xe dự định mua tiếp theo cho thấy bốn mươi sáu phần trăm người trả lời cân nhắc nhóm xe điện hóa, nhưng nhóm ấy bao gồm cả hybrid không sạc ngoài. Đây là ý định trong khảo sát, không phải số xe đã bán. Nếu đặt số NEV của Trung Quốc cạnh số xe điện của IEA mà không giải thích định nghĩa, ta sẽ kể sai câu chuyện. So sánh đúng bắt đầu từ việc giữ rõ tên từng chỉ tiêu.",
+      "targetSeconds": 45
+    }
+  ]
+}

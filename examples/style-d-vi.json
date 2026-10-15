@@ -1,0 +1,18 @@
+{
+  "schemaVersion":"1.0","projectId":"style-d-vi","title":"Ghi chú nguồn bản đồ",
+  "output":{"width":1080,"height":1920,"fps":30,"codec":"h264","quality":"draft"},
+  "locale":"vi-VN",
+  "map":{"styleId":"local-dark","attribution":true,"projection":"mercator",
+    "geojsonPath":"assets/geodata/natural-earth-jpn-chn.geojson",
+    "attributionText":"Dữ liệu bản đồ: Natural Earth 110m · ranh giới chỉ để minh họa"},
+  "defaults":{"theme":"midnight-blue","motion":"calm","safeMarginsPx":90,"subtitlesEnabled":false},
+  "audio":{"voiceover":null,"music":null,"duckingDb":-12},
+  "scenes":[{"id":"editorial","startFrame":0,"durationFrames":150,"stylePreset":"D",
+    "variant":"editorial-card","title":"Kiểm tra trước khi công bố",
+    "camera":{"from":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},
+      "to":{"center":[109.609258,16.838219],"zoom":2.788362,"pitch":0,"bearing":0},"easing":"linear"},
+    "regions":[],"routes":[],"labels":[],"cards":[{"heading":"Lưu ý về ranh giới",
+      "value":"Cần biên tập rà soát","source":"Natural Earth; ranh giới khái quát theo thực tế"}],
+    "subtitles":[{"text":"Ranh giới khái quát cần được biên tập rà soát.","startFrame":20,"endFrame":130}],
+    "transitionOut":"cut"}]
+}

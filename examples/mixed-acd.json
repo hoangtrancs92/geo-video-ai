@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "synthetic-acd-proof",
+  "title": "Synthetic A-C-D Renderer Fixture",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "h264",
+    "quality": "draft"
+  },
+  "locale": "en-US",
+  "map": {
+    "styleId": "local-synthetic",
+    "attribution": true,
+    "projection": "mercator",
+    "geojsonPath": "assets/geodata/synthetic-regions.geojson",
+    "attributionText": "Original synthetic demo geometry — CC0-1.0"
+  },
+  "defaults": {
+    "theme": "midnight-blue",
+    "motion": "balanced",
+    "safeMarginsPx": 90
+  },
+  "audio": {
+    "voiceover": null,
+    "music": null,
+    "duckingDb": -12
+  },
+  "scenes": [
+    {
+      "id": "a",
+      "startFrame": 0,
+      "durationFrames": 100,
+      "stylePreset": "A",
+      "variant": "cinematic-focus",
+      "title": "Synthetic focus",
+      "camera": {
+        "from": {
+          "center": [
+            125.5,
+            36
+          ],
+          "zoom": 6.6,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            125.5,
+            36
+          ],
+          "zoom": 6.8,
+          "pitch": 0,
+          "bearing": 4
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "DEMO-1",
+          "fill": "#38C8ED",
+          "effect": "pulse"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Demo region",
+          "position": [
+            124,
+            35
+          ],
+          "startFrame": 10,
+          "endFrame": 90
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "startFrame": 100,
+      "durationFrames": 100,
+      "stylePreset": "C",
+      "variant": "country-prism",
+      "title": "Synthetic prism",
+      "camera": {
+        "from": {
+          "center": [
+            125.5,
+            36
+          ],
+          "zoom": 6.6,
+          "pitch": 35,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            125.5,
+            36
+          ],
+          "zoom": 6.8,
+          "pitch": 55,
+          "bearing": 12
+        },
+        "easing": "easeInOutCubic"
+      },
+      "regions": [
+        {
+          "featureId": "DEMO-1",
+          "fill": "#F43F6E",
+          "effect": "rise",
+          "extrudeMeters": 45000
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "startFrame": 200,
+      "durationFrames": 100,
+      "stylePreset": "D",
+      "variant": "split-comparison",
+      "title": "Synthetic information",
+      "camera": {
+        "from": {
+          "center": [
+            125.5,
+            33.7
+          ],
+          "zoom": 6.6,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "to": {
+          "center": [
+            125.5,
+            33.7
+          ],
+          "zoom": 6.8,
+          "pitch": 0,
+          "bearing": 0
+        },
+        "easing": "linear"
+      },
+      "cards": [
+        {
+          "heading": "Fixture",
+          "value": "No statistics",
+          "source": "Synthetic test data"
+        }
+      ]
+    }
+  ]
+}

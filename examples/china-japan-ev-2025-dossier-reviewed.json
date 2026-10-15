@@ -1,0 +1,888 @@
+{
+  "schemaVersion": "1.2",
+  "projectId": "china-japan-ev-2025",
+  "sources": [
+    {
+      "id": "iea-gevo-2026",
+      "kind": "licensed_dataset",
+      "publisher": "International Energy Agency",
+      "title": "Global EV Outlook 2026",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026",
+      "localPath": "assets/research/china-japan-ev-2025/iea-global-ev-outlook-2026.pdf",
+      "retrievedAt": "2026-10-15T07:42:42.042Z",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "license": "CC BY 4.0",
+      "attribution": "IEA (2026), Global EV Outlook 2026, IEA, Paris, CC BY 4.0",
+      "rawSha256": "7f0e1575fa3679fe195c24b6adfd036c28ac90f7d0680ef127d62b4f481e8300",
+      "allowedForCommercial": true
+    },
+    {
+      "id": "iea-china-cost-2026",
+      "kind": "licensed_dataset",
+      "publisher": "International Energy Agency",
+      "title": "Why are electric cars made in China so much cheaper than those made in other countries?",
+      "url": "https://iea.blob.core.windows.net/assets/ce1ffa54-b592-4bb2-83c7-4eb000b21be4/WhyareelectriccarsmadeinChinasomuchcheaperthenthosemadeinothercountries.pdf",
+      "localPath": "assets/research/china-japan-ev-2025/iea-china-cost-2026.pdf",
+      "retrievedAt": "2026-10-15T07:39:55.567Z",
+      "license": "CC BY 4.0",
+      "attribution": "IEA (2026), Global EV Outlook 2026, Cutting through the noise, CC BY 4.0",
+      "rawSha256": "eddcbe191ee087ee6d854214d56169108133792df9a243e5da174b8bd259c2f3",
+      "allowedForCommercial": true
+    },
+    {
+      "id": "china-caam-2025",
+      "kind": "official_page",
+      "publisher": "State Council portal / Xinhua, citing CAAM",
+      "title": "China's auto output, sales reach new highs in 2025",
+      "url": "https://english.www.gov.cn/archive/statistics/202601/14/content_WS6967432ec6d00ca5f9a088ff.html",
+      "localPath": "assets/research/china-japan-ev-2025/china-nev-sales-2025.html",
+      "retrievedAt": "2026-10-15T07:43:04.962Z",
+      "license": "All rights reserved; republication requires written authorization",
+      "rawSha256": "1ff912876a237784cc95d8f70cbf777a547f081cfdab695255bc5692b02d0d1f",
+      "allowedForCommercial": false
+    },
+    {
+      "id": "jama-survey-2025",
+      "kind": "official_page",
+      "publisher": "Japan Automobile Manufacturers Association",
+      "title": "2025 Passenger Car Market Trend Survey",
+      "url": "https://www.jama.or.jp/release/news_release/2026/3582/",
+      "localPath": "assets/research/china-japan-ev-2025/jama-consumer-survey-2025.html",
+      "retrievedAt": "2026-10-15T07:43:28.258Z",
+      "license": "Copyright JAMA; visual/text reuse not verified",
+      "rawSha256": "b8aae6660916daf3939cb6bc906d5051bb8a7625ac0854424ce94f96363ee986",
+      "allowedForCommercial": false
+    }
+  ],
+  "observations": [
+    {
+      "id": "global-electric-car-sales-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "WORLD",
+      "indicatorCode": "EV_CAR_SALES",
+      "value": 20000000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "lower_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-electric-car-sales-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_SALES",
+      "value": 13000000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "lower_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-electric-car-share-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_SALES_SHARE",
+      "value": 55,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "approximate",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-ev-stock-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_STOCK",
+      "value": 44000000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "estimate",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-ev-growth-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_SALES_GROWTH",
+      "value": 20,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "upper_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "japan-iea-electric-car-sales-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "JPN",
+      "indicatorCode": "EV_CAR_SALES",
+      "value": 100000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "lower_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "japan-iea-electric-car-share-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "JPN",
+      "indicatorCode": "EV_CAR_SALES_SHARE",
+      "value": 3,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "upper_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "japan-iea-hev-share-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "JPN",
+      "indicatorCode": "HEV_CAR_SALES_SHARE",
+      "value": 33.3,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "approximate",
+        "non_plug_in_hybrid",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-ev-production-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_PRODUCTION",
+      "value": 16000000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "approximate",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-ev-export-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "EV_CAR_EXPORTS",
+      "value": 2500000,
+      "unit": "cars",
+      "year": 2025,
+      "qualityFlags": [
+        "lower_bound",
+        "BEV+PHEV",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-iea-battery-cell-share-2025",
+      "sourceId": "iea-gevo-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "BATTERY_CELL_PRODUCTION_SHARE",
+      "value": 80,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "lower_bound",
+        "IEA"
+      ]
+    },
+    {
+      "id": "china-caam-nev-sales-2025",
+      "sourceId": "china-caam-2025",
+      "regionCode": "CHN",
+      "indicatorCode": "NEV_SALES",
+      "value": 16490000,
+      "unit": "vehicles",
+      "year": 2025,
+      "qualityFlags": [
+        "CAAM_NEV_definition_not_IEA_car_metric"
+      ]
+    },
+    {
+      "id": "japan-jama-electrified-intent-2025",
+      "sourceId": "jama-survey-2025",
+      "regionCode": "JPN",
+      "indicatorCode": "ELECTRIFIED_PURCHASE_INTENT",
+      "value": 46,
+      "unit": "percent",
+      "year": 2025,
+      "qualityFlags": [
+        "survey",
+        "includes_HEV_PHEV_BEV_FCEV"
+      ]
+    },
+    {
+      "id": "china-cost-battery-efficiency-2026",
+      "sourceId": "iea-china-cost-2026",
+      "regionCode": "CHN",
+      "indicatorCode": "BATTERY_COST_GAP_EFFICIENCY_SHARE",
+      "value": 40,
+      "unit": "percent",
+      "period": "IEA Global EV Outlook 2026 cost analysis; reference year not stated",
+      "qualityFlags": [
+        "lower_bound",
+        "comparison_with_Europe",
+        "IEA_analysis"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "definition-iea-electric-car",
+      "text": "Trong báo cáo IEA, xe điện gồm xe chạy pin hoàn toàn và xe hybrid sạc ngoài.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Không gồm xe hybrid không sạc ngoài."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "definition-hev-separate",
+      "text": "Xe hybrid thông thường được IEA trình bày tách khỏi nhóm xe điện sạc ngoài.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "HEV không phải BEV hoặc PHEV."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "global-sales-2025",
+      "text": "Năm 2025, doanh số xe điện toàn cầu vượt 20 triệu chiếc theo IEA.",
+      "evidenceIds": [
+        "global-electric-car-sales-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc dưới; BEV và PHEV."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-sales-2025",
+      "text": "Năm 2025, Trung Quốc bán hơn 13 triệu xe điện theo IEA.",
+      "evidenceIds": [
+        "china-iea-electric-car-sales-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc dưới; thị trường xe điện BEV và PHEV."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-share-2025",
+      "text": "Năm 2025, xe điện chiếm gần 55% doanh số ô tô mới ở Trung Quốc theo IEA.",
+      "evidenceIds": [
+        "china-iea-electric-car-share-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Giá trị xấp xỉ."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-sales-2025",
+      "text": "Năm 2025, doanh số xe điện Nhật Bản chỉ nhỉnh hơn 100.000 chiếc theo IEA.",
+      "evidenceIds": [
+        "japan-iea-electric-car-sales-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc dưới; BEV và PHEV."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-share-2025",
+      "text": "Năm 2025, xe điện chiếm dưới 3% doanh số ô tô mới ở Nhật Bản theo IEA.",
+      "evidenceIds": [
+        "japan-iea-electric-car-share-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc trên."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-hev-share-2025",
+      "text": "Năm 2025, hybrid thông thường chiếm khoảng một phần ba doanh số ô tô Nhật Bản theo IEA.",
+      "evidenceIds": [
+        "japan-iea-hev-share-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Giá trị xấp xỉ; HEV không sạc ngoài."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-stock-2025",
+      "text": "Cuối năm 2025, IEA ước tính có khoảng 44 triệu xe điện lưu hành tại Trung Quốc.",
+      "evidenceIds": [
+        "china-iea-ev-stock-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Ước tính tồn kho xe."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-growth-2025",
+      "text": "Năm 2025, tăng trưởng doanh số xe điện Trung Quốc dưới 20% theo IEA.",
+      "evidenceIds": [
+        "china-iea-ev-growth-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc trên; tăng trưởng theo năm."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-production-2025",
+      "text": "Năm 2025, Trung Quốc sản xuất khoảng 16 triệu xe điện theo IEA.",
+      "evidenceIds": [
+        "china-iea-ev-production-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Giá trị xấp xỉ; sản lượng khác doanh số nội địa."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-exports-2025",
+      "text": "Năm 2025, xuất khẩu xe điện Trung Quốc vượt 2,5 triệu chiếc theo IEA.",
+      "evidenceIds": [
+        "china-iea-ev-export-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Mốc dưới; không đồng nghĩa doanh số tại thị trường nhận."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-battery-share-2025",
+      "text": "Năm 2025, Trung Quốc chiếm hơn 80% sản lượng cell pin xe điện toàn cầu theo IEA.",
+      "evidenceIds": [
+        "china-iea-battery-cell-share-2025"
+      ],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Sản lượng cell pin, không phải doanh số ô tô."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-caam-nev-sales-2025",
+      "text": "Năm 2025, CAAM báo cáo Trung Quốc bán 16,49 triệu xe năng lượng mới.",
+      "evidenceIds": [
+        "china-caam-nev-sales-2025"
+      ],
+      "sourceIds": [
+        "china-caam-2025"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "NEV của CAAM không đồng nhất với chỉ tiêu xe điện của IEA."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-scale-cost",
+      "text": "IEA cho rằng quy mô sản xuất lớn là một yếu tố tạo lợi thế chi phí cho xe điện sản xuất tại Trung Quốc.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-china-cost-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Phân tích của IEA, không phải đo chi phí của mọi mẫu xe."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-battery-cost",
+      "text": "Theo IEA, chi phí pin thấp hơn làm lợi thế chi phí sản xuất xe điện của Trung Quốc lớn hơn lợi thế ở xe động cơ đốt trong.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-china-cost-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "So sánh chi phí sản xuất, không phải giá bán lẻ."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-lfp-cost",
+      "text": "IEA nêu việc dùng rộng rãi pin lithium sắt phosphate là một yếu tố trong lợi thế chi phí pin của Trung Quốc.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-china-cost-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Không suy ra mọi xe dùng cùng hóa học pin."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-policy-scale",
+      "text": "IEA đánh giá trợ cấp và tài chính ưu đãi giai đoạn đầu đã giúp các nhà sản xuất Trung Quốc mở rộng quy mô.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-china-cost-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "IEA cũng nói chính sách không đủ để giải thích toàn bộ chênh lệch giá."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "china-battery-efficiency-gap",
+      "text": "IEA ước tính hiệu quả sản xuất giải thích hơn 40% chênh lệch chi phí sản xuất pin giữa Trung Quốc và châu Âu.",
+      "evidenceIds": [
+        "china-cost-battery-efficiency-2026"
+      ],
+      "sourceIds": [
+        "iea-china-cost-2026"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "So sánh với châu Âu; không trực tiếp so với Nhật Bản."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-hybrid-focus",
+      "text": "IEA liên hệ tỷ trọng hybrid cao tại Nhật Bản với chiến lược lâu dài của các hãng về tiết kiệm nhiên liệu.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Diễn giải của IEA; không khẳng định là nguyên nhân duy nhất."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-charging-constraint",
+      "text": "IEA nhận định khả năng đỗ xe riêng và hạ tầng sạc là những hạn chế đối với doanh số xe điện tại Nhật Bản.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "iea-gevo-2026"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Diễn giải của IEA; không lượng hóa tác động riêng."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-jama-intent-2025",
+      "text": "Khảo sát JAMA cho thấy 46% người dự định thay xe cân nhắc nhóm xe điện hóa, tính cả hybrid thông thường.",
+      "evidenceIds": [
+        "japan-jama-electrified-intent-2025"
+      ],
+      "sourceIds": [
+        "jama-survey-2025"
+      ],
+      "claimType": "quantitative",
+      "qualifiers": [
+        "Ý định mua trong khảo sát, không phải doanh số thực tế."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-jama-hev-preference",
+      "text": "Trong khảo sát JAMA, hybrid thông thường đứng đầu thứ tự ưu tiên khi người trả lời cân nhắc xe thân thiện môi trường.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "jama-survey-2025"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Khảo sát ý định, không đại diện cho doanh số thực tế."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-jama-bev-concerns",
+      "text": "JAMA ghi nhận người trả lời khảo sát nêu nhiều mối lo với xe chạy pin hoàn toàn hơn các loại xe thân thiện môi trường khác.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "jama-survey-2025"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Khảo sát ý kiến; cần xem phương pháp và mẫu trước khi diễn giải rộng."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    },
+    {
+      "id": "japan-jama-home-charging",
+      "text": "JAMA cho biết các chủ xe chạy pin hoặc hybrid sạc ngoài ở nhà riêng chủ yếu sạc tại nhà.",
+      "evidenceIds": [],
+      "sourceIds": [
+        "jama-survey-2025"
+      ],
+      "claimType": "qualitative",
+      "qualifiers": [
+        "Chỉ nói nhóm người dùng ở nhà riêng trong khảo sát."
+      ],
+      "verdict": "supported",
+      "approval": "approved"
+    }
+  ],
+  "reviewLog": [
+    {
+      "claimId": "definition-iea-electric-car",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, notes under electric car sales: BEV and plug-in hybrid are included; ordinary HEV is excluded.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "definition-hev-separate",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph reports conventional HEV separately from electric car sales.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "global-sales-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Electric car sales opening reports more than 20 million worldwide in 2025; retain lower-bound wording.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-sales-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, China paragraph reports more than 13 million electric cars sold in 2025; BEV plus PHEV.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-share-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, China paragraph says almost 55% of new car sales in 2025; retain approximate wording.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-sales-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph says 2025 electric car sales were just above 100,000; retain lower-bound wording.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-share-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph says electric cars accounted for less than 3% of car sales in 2025.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-hev-share-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph gives conventional HEVs around one-third of all 2025 car sales; HEV is not BEV or PHEV.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-stock-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, China paragraph estimates 44 million electric cars on Chinese roads at end-2025; this is stock, not annual sales.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-growth-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, China paragraph says 2025 electric car sales growth was less than 20% year on year.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-production-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Manufacturing and trade chapter reports China produced 16 million electric cars in 2025; production differs from domestic sales.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-exports-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Manufacturing and trade chapter reports more than 2.5 million Chinese electric car exports in 2025; shipments differ from overseas sales.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-battery-share-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Manufacturing and trade chapter reports China over 80% of 2025 battery cell production; this is output, not car sales.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-caam-nev-sales-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "China State Council portal, 14 January 2026, cites CAAM sales of 16.49 million NEVs in 2025. Keep NEV separate from IEA electric-car metric and paraphrase without copying page content.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-scale-cost",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Cutting through the noise, page 1, identifies large manufacturing scale and fixed-cost spreading as a cost advantage; it is not a model-by-model comparison.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-battery-cost",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Cutting through the noise, page 1, says lower battery costs make the electric-car production cost advantage greater than for ICE cars; not retail price.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-lfp-cost",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Cutting through the noise, page 1, links widespread LFP adoption to avoiding costlier nickel-based materials; do not generalize to every car.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-policy-scale",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Cutting through the noise, page 1, attributes early scale partly to subsidies and preferential financing and says policy alone does not explain prices.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "china-battery-efficiency-gap",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Cutting through the noise, page 1, says manufacturing efficiency accounts for over 40% of the China-Europe battery production cost gap; not China-Japan.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-hybrid-focus",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph links high HEV share with automakers' long-standing hybrid focus for fuel economy; attribution is IEA analysis.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-charging-constraint",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "IEA Trends in electric cars, Japan paragraph identifies limited private parking in apartments and charging constraints as factors slowing sales; no effect size given.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-jama-intent-2025",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "JAMA 2025 passenger-car survey, purchase intentions section, gives 46% for next intended car across HEV, PHEV, BEV and FCEV. Survey intent is not sales; paraphrase only.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-jama-hev-preference",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "JAMA 2025 passenger-car survey, environmental-car attitudes section, places HEV highest for first purchase-consideration rank; survey result only.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-jama-bev-concerns",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "JAMA 2025 passenger-car survey, environmental-car attitudes section, says respondents reported more concerns for BEV than other types; no national causal claim.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    },
+    {
+      "claimId": "japan-jama-home-charging",
+      "verdict": "supported",
+      "approval": "approved",
+      "reason": "JAMA 2025 passenger-car survey, environmental-car attitudes section, says detached-house BEV/PHEV users mostly installed and use home charging; limited to surveyed group.",
+      "reviewer": "Codex AI source audit (user delegated)",
+      "reviewedAt": "2026-10-15T09:07:49.000Z",
+      "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8"
+    }
+  ],
+  "gapReviewLog": [
+    {
+      "question": "Biên tập viên đã xác nhận từng claim và quyền dùng số liệu trong video thương mại chưa?",
+      "reason": "Codex đã đối chiếu riêng 25 claim theo ủy quyền. Kịch bản chỉ diễn đạt lại dữ kiện có dẫn nguồn; đồ họa phải tự tạo, không dùng ảnh, biểu đồ, logo hay nguyên văn CAAM/JAMA. Đây là giới hạn sản xuất, không phải xác nhận pháp lý về mọi cách tái sử dụng.",
+      "reviewer": "Codex AI editorial scope (user delegated)",
+      "reviewedAt": "2026-10-15T09:40:38.000Z",
+      "inputSha256": "d2063a5e924a88d7c320932c1c2501e9d5060b6226573f1ebb78dd3dbfaa5b25"
+    },
+    {
+      "question": "Chỉ tiêu NEV của CAAM được định nghĩa và giới hạn thế nào so với electric cars của IEA?",
+      "reason": "Biểu đồ so sánh Trung Quốc-Nhật chỉ dùng cùng chỉ tiêu electric cars BEV+PHEV của IEA. Số CAAM NEV nếu nhắc tới chỉ là một câu riêng có nhãn NEV và không dùng để tính chênh lệch với IEA.",
+      "reviewer": "Codex AI editorial scope (user delegated)",
+      "reviewedAt": "2026-10-15T09:40:38.000Z",
+      "inputSha256": "d2063a5e924a88d7c320932c1c2501e9d5060b6226573f1ebb78dd3dbfaa5b25"
+    },
+    {
+      "question": "Nguồn độc lập nào bổ sung đủ chiều sâu cho kịch bản dài về chiến lược doanh nghiệp Nhật và Trung Quốc?",
+      "reason": "Thu hẹp phạm vi bản dài vào thị trường 2025, sản xuất, chi phí theo phân tích IEA và ý định người mua trong khảo sát JAMA. Không kết luận về lợi nhuận, công nghệ từng hãng hay tương lai; các chủ đề đó bị loại khỏi luận đề.",
+      "reviewer": "Codex AI editorial scope (user delegated)",
+      "reviewedAt": "2026-10-15T09:40:38.000Z",
+      "inputSha256": "d2063a5e924a88d7c320932c1c2501e9d5060b6226573f1ebb78dd3dbfaa5b25"
+    }
+  ],
+  "gaps": [
+    {
+      "question": "Thiết kế đồ họa nào được phép dùng?",
+      "reason": "Logo, ảnh xe, video nhà máy và đồ thị của nguồn chưa được cấp quyền sử dụng.",
+      "priority": "medium"
+    }
+  ]
+}

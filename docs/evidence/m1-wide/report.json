@@ -1,0 +1,165 @@
+{
+  "status": "capture-passed",
+  "input": "examples/japan-china-wide.json",
+  "output": "outputs/wide-samples.mp4",
+  "frames": 3,
+  "startFrame": 0,
+  "sampleFrames": [
+    65,
+    180,
+    200
+  ],
+  "totalProjectFrames": 300,
+  "partial": true,
+  "errors": [],
+  "sentinels": [
+    {
+      "frame": 65,
+      "scene": "a",
+      "style": "A",
+      "deckPasses": 8,
+      "hash": "194fe913d7dd47b5679d65ac231e2ddd61032be9188ea76f3f5f2361654027cb",
+      "blackFraction": 0,
+      "cyanFraction": 0.19820601851851852,
+      "pinkFraction": 0.0039313673482510286
+    },
+    {
+      "frame": 180,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 11,
+      "hash": "712a3c79496c5c91ba5ba35f5036dfdb9c9d4f7211735e7c4601b354f3a9f017",
+      "blackFraction": 0,
+      "cyanFraction": 0.10365025398662552,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 200,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 13,
+      "hash": "e7dafecf29c528a624760fad7e30339c6c1f6ef60a0216063bac3835aa4a97ae",
+      "blackFraction": 0,
+      "cyanFraction": 0.002416288901748971,
+      "pinkFraction": 0
+    }
+  ],
+  "preflight": {
+    "status": "ready-for-browser-probe",
+    "checks": {
+      "node": {
+        "ok": true,
+        "detail": "v24.13.1"
+      },
+      "ffmpeg": {
+        "ok": true,
+        "detail": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "ffprobe": {
+        "ok": true,
+        "detail": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+      },
+      "vite": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/vite/dist/node/index.js"
+      },
+      "playwright": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/playwright/index.js"
+      },
+      "pngjs": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/pngjs/lib/png.js"
+      },
+      "maplibre-gl": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/maplibre-gl/dist/maplibre-gl.js"
+      },
+      "@deck.gl/core": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/core/dist/index.cjs"
+      },
+      "@deck.gl/layers": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/layers/dist/index.cjs"
+      },
+      "@deck.gl/mapbox": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/mapbox/dist/index.cjs"
+      },
+      "chrome": {
+        "ok": true,
+        "detail": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+      }
+    },
+    "note": "This checks prerequisites only. WebGL2, fonts, rendering and codecs require the real spike."
+  },
+  "chromium": "155.0.8059.79",
+  "intentionalHoldFrames": 0,
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1536,
+        "duration": "0.100000",
+        "bit_rate": "3903440",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "3",
+        "nb_read_frames": "3",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      }
+    ]
+  },
+  "sha256": "150f34cf76a695cb33be01087c94546d01a5095f41f630ac4db875a3ea0c7de2"
+}

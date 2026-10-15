@@ -1,0 +1,19 @@
+{
+  "schemaVersion":"1.0",
+  "projectId":"earth-globe-intro",
+  "title":"Earth globe — Asia in context",
+  "output":{"width":1080,"height":1920,"fps":30,"codec":"h264","quality":"draft"},
+  "locale":"en-US",
+  "map":{"styleId":"local-dark","attribution":true,"projection":"globe",
+    "geojsonPath":"assets/geodata/natural-earth-world.geojson",
+    "attributionText":"Map data: Natural Earth 110m · generalized boundaries for illustration"},
+  "defaults":{"theme":"midnight-blue","motion":"calm","safeMarginsPx":90,"subtitlesEnabled":false},
+  "audio":{"voiceover":null,"music":null,"duckingDb":-12},
+  "scenes":[{"id":"globe","startFrame":0,"durationFrames":120,"stylePreset":"A",
+    "variant":"cinematic-duel","title":"Earth: Japan and China",
+    "camera":{"from":{"center":[98,25],"zoom":1.65,"pitch":0,"bearing":0},
+      "to":{"center":[110,32],"zoom":2.15,"pitch":0,"bearing":0},"easing":"easeInOutCubic"},
+    "regions":[{"featureId":"JPN","fill":"#F43F6E","effect":"solid"},
+      {"featureId":"CHN","fill":"#38C8ED","effect":"solid"}],
+    "routes":[],"labels":[],"cards":[],"subtitles":[],"transitionOut":"cut"}]
+}

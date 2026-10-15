@@ -1,0 +1,33 @@
+{
+  "schemaVersion":"1.2",
+  "projectId":"japan-china-map-evidence",
+  "sources":[{
+    "id":"natural-earth-raw",
+    "kind":"licensed_dataset",
+    "publisher":"Natural Earth",
+    "title":"Admin zero country boundaries, generalized world map",
+    "url":"https://github.com/nvkelso/natural-earth-vector",
+    "localPath":"assets/geodata/source/ne_110m_admin_0_countries.geojson",
+    "retrievedAt":"2026-10-14T18:01:04.257Z",
+    "license":"Public domain",
+    "attribution":"Natural Earth; generalized de facto boundaries",
+    "rawSha256":"6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "allowedForCommercial":true
+  }],
+  "observations":[],
+  "claims":[{
+    "id":"map-generalized",
+    "text":"The map uses generalized Natural Earth country boundaries.",
+    "evidenceIds":[],
+    "sourceIds":["natural-earth-raw"],
+    "claimType":"qualitative",
+    "qualifiers":["Territorial status and disputed boundaries require editorial review."],
+    "verdict":"supported",
+    "approval":"needs_review"
+  }],
+  "gaps":[{
+    "question":"Which comparable statistical evidence will support the Japan and China documentary?",
+    "reason":"No approved observations, definitions or independent sources are present.",
+    "priority":"high"
+  }]
+}

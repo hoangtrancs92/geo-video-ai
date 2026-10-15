@@ -1,0 +1,33 @@
+{
+  "projectId": "china-japan-ev-2025",
+  "inputSha256": "b78cd2c26a603267148f4a3b815f7ff2c53a1172d7a8b08920d40e054486b6b8",
+  "reviewer": "Codex AI source audit (user delegated)",
+  "reviewedAt": "2026-10-15T09:07:49.000Z",
+  "decisions": [
+    {"claimId":"definition-iea-electric-car","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, notes under electric car sales: BEV and plug-in hybrid are included; ordinary HEV is excluded."},
+    {"claimId":"definition-hev-separate","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph reports conventional HEV separately from electric car sales."},
+    {"claimId":"global-sales-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Electric car sales opening reports more than 20 million worldwide in 2025; retain lower-bound wording."},
+    {"claimId":"china-sales-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, China paragraph reports more than 13 million electric cars sold in 2025; BEV plus PHEV."},
+    {"claimId":"china-share-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, China paragraph says almost 55% of new car sales in 2025; retain approximate wording."},
+    {"claimId":"japan-sales-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph says 2025 electric car sales were just above 100,000; retain lower-bound wording."},
+    {"claimId":"japan-share-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph says electric cars accounted for less than 3% of car sales in 2025."},
+    {"claimId":"japan-hev-share-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph gives conventional HEVs around one-third of all 2025 car sales; HEV is not BEV or PHEV."},
+    {"claimId":"china-stock-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, China paragraph estimates 44 million electric cars on Chinese roads at end-2025; this is stock, not annual sales."},
+    {"claimId":"china-growth-2025","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, China paragraph says 2025 electric car sales growth was less than 20% year on year."},
+    {"claimId":"china-production-2025","verdict":"supported","approval":"approved","reason":"IEA Manufacturing and trade chapter reports China produced 16 million electric cars in 2025; production differs from domestic sales."},
+    {"claimId":"china-exports-2025","verdict":"supported","approval":"approved","reason":"IEA Manufacturing and trade chapter reports more than 2.5 million Chinese electric car exports in 2025; shipments differ from overseas sales."},
+    {"claimId":"china-battery-share-2025","verdict":"supported","approval":"approved","reason":"IEA Manufacturing and trade chapter reports China over 80% of 2025 battery cell production; this is output, not car sales."},
+    {"claimId":"china-caam-nev-sales-2025","verdict":"supported","approval":"approved","reason":"China State Council portal, 14 January 2026, cites CAAM sales of 16.49 million NEVs in 2025. Keep NEV separate from IEA electric-car metric and paraphrase without copying page content."},
+    {"claimId":"china-scale-cost","verdict":"supported","approval":"approved","reason":"IEA Cutting through the noise, page 1, identifies large manufacturing scale and fixed-cost spreading as a cost advantage; it is not a model-by-model comparison."},
+    {"claimId":"china-battery-cost","verdict":"supported","approval":"approved","reason":"IEA Cutting through the noise, page 1, says lower battery costs make the electric-car production cost advantage greater than for ICE cars; not retail price."},
+    {"claimId":"china-lfp-cost","verdict":"supported","approval":"approved","reason":"IEA Cutting through the noise, page 1, links widespread LFP adoption to avoiding costlier nickel-based materials; do not generalize to every car."},
+    {"claimId":"china-policy-scale","verdict":"supported","approval":"approved","reason":"IEA Cutting through the noise, page 1, attributes early scale partly to subsidies and preferential financing and says policy alone does not explain prices."},
+    {"claimId":"china-battery-efficiency-gap","verdict":"supported","approval":"approved","reason":"IEA Cutting through the noise, page 1, says manufacturing efficiency accounts for over 40% of the China-Europe battery production cost gap; not China-Japan."},
+    {"claimId":"japan-hybrid-focus","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph links high HEV share with automakers' long-standing hybrid focus for fuel economy; attribution is IEA analysis."},
+    {"claimId":"japan-charging-constraint","verdict":"supported","approval":"approved","reason":"IEA Trends in electric cars, Japan paragraph identifies limited private parking in apartments and charging constraints as factors slowing sales; no effect size given."},
+    {"claimId":"japan-jama-intent-2025","verdict":"supported","approval":"approved","reason":"JAMA 2025 passenger-car survey, purchase intentions section, gives 46% for next intended car across HEV, PHEV, BEV and FCEV. Survey intent is not sales; paraphrase only."},
+    {"claimId":"japan-jama-hev-preference","verdict":"supported","approval":"approved","reason":"JAMA 2025 passenger-car survey, environmental-car attitudes section, places HEV highest for first purchase-consideration rank; survey result only."},
+    {"claimId":"japan-jama-bev-concerns","verdict":"supported","approval":"approved","reason":"JAMA 2025 passenger-car survey, environmental-car attitudes section, says respondents reported more concerns for BEV than other types; no national causal claim."},
+    {"claimId":"japan-jama-home-charging","verdict":"supported","approval":"approved","reason":"JAMA 2025 passenger-car survey, environmental-car attitudes section, says detached-house BEV/PHEV users mostly installed and use home charging; limited to surveyed group."}
+  ]
+}

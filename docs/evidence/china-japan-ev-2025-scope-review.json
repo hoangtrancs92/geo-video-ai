@@ -1,0 +1,21 @@
+{
+  "projectId": "china-japan-ev-2025",
+  "inputSha256": "d2063a5e924a88d7c320932c1c2501e9d5060b6226573f1ebb78dd3dbfaa5b25",
+  "reviewer": "Codex AI editorial scope (user delegated)",
+  "reviewedAt": "2026-10-15T09:40:38.000Z",
+  "decisions": [],
+  "gapDecisions": [
+    {
+      "question": "Biên tập viên đã xác nhận từng claim và quyền dùng số liệu trong video thương mại chưa?",
+      "reason": "Codex đã đối chiếu riêng 25 claim theo ủy quyền. Kịch bản chỉ diễn đạt lại dữ kiện có dẫn nguồn; đồ họa phải tự tạo, không dùng ảnh, biểu đồ, logo hay nguyên văn CAAM/JAMA. Đây là giới hạn sản xuất, không phải xác nhận pháp lý về mọi cách tái sử dụng."
+    },
+    {
+      "question": "Chỉ tiêu NEV của CAAM được định nghĩa và giới hạn thế nào so với electric cars của IEA?",
+      "reason": "Biểu đồ so sánh Trung Quốc-Nhật chỉ dùng cùng chỉ tiêu electric cars BEV+PHEV của IEA. Số CAAM NEV nếu nhắc tới chỉ là một câu riêng có nhãn NEV và không dùng để tính chênh lệch với IEA."
+    },
+    {
+      "question": "Nguồn độc lập nào bổ sung đủ chiều sâu cho kịch bản dài về chiến lược doanh nghiệp Nhật và Trung Quốc?",
+      "reason": "Thu hẹp phạm vi bản dài vào thị trường 2025, sản xuất, chi phí theo phân tích IEA và ý định người mua trong khảo sát JAMA. Không kết luận về lợi nhuận, công nghệ từng hãng hay tương lai; các chủ đề đó bị loại khỏi luận đề."
+    }
+  ]
+}

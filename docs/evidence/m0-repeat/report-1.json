@@ -1,0 +1,2182 @@
+{
+  "status": "capture-passed",
+  "mode": "screenshot-ffmpeg-candidate",
+  "frames": [
+    {
+      "frame": 0,
+      "camera": {
+        "center": [
+          124,
+          35
+        ],
+        "zoom": 4,
+        "pitch": 20,
+        "bearing": -12
+      },
+      "deckPasses": 3,
+      "webgl2": true,
+      "hash": "c3f458e159cb4300af141b82b3b49b0876f134c3bafa0c5d09d9add3f79b3241",
+      "blackFraction": 0,
+      "cyanFraction": 0.022328317901234566,
+      "pinkFraction": 0.002402223186728395,
+      "elapsedMs": 4326.893566,
+      "validated": true
+    },
+    {
+      "frame": 1,
+      "camera": {
+        "center": [
+          124.0000041224406,
+          35.00000206122031
+        ],
+        "zoom": 4.000002061220305,
+        "pitch": 20.00011542833704,
+        "bearing": -11.999901061425362
+      },
+      "deckPasses": 7,
+      "webgl2": true,
+      "hash": "484bd72a7e05763de5411bf4899b56d9e0837dcd646a80bca10f7de668d9ab1c",
+      "blackFraction": 0,
+      "cyanFraction": 0.022328317901234566,
+      "pinkFraction": 0.0024122701260288065,
+      "elapsedMs": 946.6216660000009,
+      "validated": true
+    },
+    {
+      "frame": 2,
+      "camera": {
+        "center": [
+          124.0000329795248,
+          35.00001648976244
+        ],
+        "zoom": 4.000016489762434,
+        "pitch": 20.000923426696307,
+        "bearing": -11.999208491403124
+      },
+      "deckPasses": 9,
+      "webgl2": true,
+      "hash": "198be4e6b7fbe73ac7bd6aadb452a0b52270239268de8116d07703f5710a19b3",
+      "blackFraction": 0,
+      "cyanFraction": 0.022328317901234566,
+      "pinkFraction": 0.0024122701260288065,
+      "elapsedMs": 873.971571,
+      "validated": true
+    },
+    {
+      "frame": 3,
+      "camera": {
+        "center": [
+          124.00011130589644,
+          35.00005565294821
+        ],
+        "zoom": 4.000055652948215,
+        "pitch": 20.003116565100036,
+        "bearing": -11.997328658485685
+      },
+      "deckPasses": 11,
+      "webgl2": true,
+      "hash": "c7d61b53375d6b2ca16a8c5d2a9bc0cdf50c7b30cde4646d1724eadbe5d9b7a0",
+      "blackFraction": 0,
+      "cyanFraction": 0.02232932259516461,
+      "pinkFraction": 0.0024122701260288065,
+      "elapsedMs": 807.4743980000003,
+      "validated": true
+    },
+    {
+      "frame": 4,
+      "camera": {
+        "center": [
+          124.00026383619888,
+          35.00013191809947
+        ],
+        "zoom": 4.0001319180994725,
+        "pitch": 20.007387413570456,
+        "bearing": -11.993667931225332
+      },
+      "deckPasses": 13,
+      "webgl2": true,
+      "hash": "be40022ddef0f2a90dd40c7feeb2a0ec33815df06610ca272389df8a658e0094",
+      "blackFraction": 0,
+      "cyanFraction": 0.022339369534465022,
+      "pinkFraction": 0.0024122701260288065,
+      "elapsedMs": 834.4275969999999,
+      "validated": true
+    },
+    {
+      "frame": 5,
+      "camera": {
+        "center": [
+          124.00051530507608,
+          35.00025765253803
+        ],
+        "zoom": 4.000257652538032,
+        "pitch": 20.014428542129796,
+        "bearing": -11.987632678174464
+      },
+      "deckPasses": 15,
+      "webgl2": true,
+      "hash": "50318f01ab9f13707376fd93616060193f8012ecdae5192e0d3d1d0b9c2734f1",
+      "blackFraction": 0,
+      "cyanFraction": 0.022342383616255145,
+      "pinkFraction": 0.0024182982896090535,
+      "elapsedMs": 1108.0009740000005,
+      "validated": true
+    },
+    {
+      "frame": 6,
+      "camera": {
+        "center": [
+          124.00089044717151,
+          35.00044522358572
+        ],
+        "zoom": 4.00044522358572,
+        "pitch": 20.024932520800288,
+        "bearing": -11.97862926788548
+      },
+      "deckPasses": 17,
+      "webgl2": true,
+      "hash": "39b8287ac6f7d3c35f35b6430e396b7117a7c0cf2f9548c778e97339b040d50a",
+      "blackFraction": 0,
+      "cyanFraction": 0.022337360146604937,
+      "pinkFraction": 0.002422317065329218,
+      "elapsedMs": 1052.7996600000006,
+      "validated": true
+    },
+    {
+      "frame": 7,
+      "camera": {
+        "center": [
+          124.0014139971288,
+          35.00070699856436
+        ],
+        "zoom": 4.00070699856436,
+        "pitch": 20.039591919604163,
+        "bearing": -11.966064068910782
+      },
+      "deckPasses": 19,
+      "webgl2": true,
+      "hash": "e272c405306f611eb8559afefec332c293803a203340b32154bb2bad0f08c2d3",
+      "blackFraction": 0,
+      "cyanFraction": 0.022351425861625515,
+      "pinkFraction": 0.0024243264531893004,
+      "elapsedMs": 880.4371030000002,
+      "validated": true
+    },
+    {
+      "frame": 8,
+      "camera": {
+        "center": [
+          124.00211068959152,
+          35.00105534479578
+        ],
+        "zoom": 4.0010553447957795,
+        "pitch": 20.05909930856365,
+        "bearing": -11.949343449802655
+      },
+      "deckPasses": 21,
+      "webgl2": true,
+      "hash": "08ed1b11b13d686c255a332b7158084ee073a799c727c80a63b5c484e270a0c7",
+      "blackFraction": 0,
+      "cyanFraction": 0.02236649627057613,
+      "pinkFraction": 0.0024253311471193416,
+      "elapsedMs": 799.1821569999993,
+      "validated": true
+    },
+    {
+      "frame": 9,
+      "camera": {
+        "center": [
+          124.00300525920363,
+          35.0015026296018
+        ],
+        "zoom": 4.001502629601803,
+        "pitch": 20.084147257700977,
+        "bearing": -11.927873779113497
+      },
+      "deckPasses": 23,
+      "webgl2": true,
+      "hash": "0bff0bb64b52e4c86f2af55206cbbe364a2550c9ff41be7fd7fdbbb36a3bc525",
+      "blackFraction": 0,
+      "cyanFraction": 0.022369510352366256,
+      "pinkFraction": 0.002426335841049383,
+      "elapsedMs": 797.8368919999994,
+      "validated": true
+    },
+    {
+      "frame": 10,
+      "camera": {
+        "center": [
+          124.00412244060851,
+          35.002061220304256
+        ],
+        "zoom": 4.002061220304257,
+        "pitch": 20.115428337038377,
+        "bearing": -11.90106142539571
+      },
+      "deckPasses": 25,
+      "webgl2": true,
+      "hash": "1dca514ba8d2905640df82528b62659e3a643062fa3888488d6605aa75d420fb",
+      "blackFraction": 0,
+      "cyanFraction": 0.022368505658436216,
+      "pinkFraction": 0.0024454250257201645,
+      "elapsedMs": 737.1532179999995,
+      "validated": true
+    },
+    {
+      "frame": 11,
+      "camera": {
+        "center": [
+          124.00548696844999,
+          35.002743484224965
+        ],
+        "zoom": 4.002743484224966,
+        "pitch": 20.15363511659808,
+        "bearing": -11.868312757201693
+      },
+      "deckPasses": 27,
+      "webgl2": true,
+      "hash": "fbe985caba4b551a2a996036fdf1b35db11f163ae53f333f6435f4d0f1462dee",
+      "blackFraction": 0,
+      "cyanFraction": 0.022370515046296297,
+      "pinkFraction": 0.0024434156378600825,
+      "elapsedMs": 761.0511719999995,
+      "validated": true
+    },
+    {
+      "frame": 12,
+      "camera": {
+        "center": [
+          124.00712357737154,
+          35.00356178868576
+        ],
+        "zoom": 4.003561788685755,
+        "pitch": 20.199460166402314,
+        "bearing": -11.829034143083732
+      },
+      "deckPasses": 29,
+      "webgl2": true,
+      "hash": "48f04395fe56cc2414bc18ae900699d18dd2f6c201d705add104381739db2c3f",
+      "blackFraction": 0,
+      "cyanFraction": 0.022403669945987654,
+      "pinkFraction": 0.002448439107510288,
+      "elapsedMs": 733.0756069999989,
+      "validated": true
+    },
+    {
+      "frame": 13,
+      "camera": {
+        "center": [
+          124.0090570020169,
+          35.00452850100845
+        ],
+        "zoom": 4.004528501008452,
+        "pitch": 20.253596056473313,
+        "bearing": -11.78263195159434
+      },
+      "deckPasses": 31,
+      "webgl2": true,
+      "hash": "d44299d1d434394f3dc7e67f29bdc68f6bd36238db6fd882abcee0d539d1a7ec",
+      "blackFraction": 0,
+      "cyanFraction": 0.022428787294238684,
+      "pinkFraction": 0.0024554719650205763,
+      "elapsedMs": 868.8109909999985,
+      "validated": true
+    },
+    {
+      "frame": 14,
+      "camera": {
+        "center": [
+          124.01131197702978,
+          35.00565598851488
+        ],
+        "zoom": 4.005655988514881,
+        "pitch": 20.316735356833306,
+        "bearing": -11.728512551285803
+      },
+      "deckPasses": 33,
+      "webgl2": true,
+      "hash": "d6aba0276a606ee819573e418b9adf5b5cecd88c38c986e9843a918ba589201c",
+      "blackFraction": 0,
+      "cyanFraction": 0.02245089056069959,
+      "pinkFraction": 0.002454467271090535,
+      "elapsedMs": 672.0686090000017,
+      "validated": true
+    },
+    {
+      "frame": 15,
+      "camera": {
+        "center": [
+          124.01391323705366,
+          35.006956618526864
+        ],
+        "zoom": 4.006956618526867,
+        "pitch": 20.389570637504523,
+        "bearing": -11.666082310710408
+      },
+      "deckPasses": 35,
+      "webgl2": true,
+      "hash": "e49818f9329447d16d98d2744efb654829015baccaec6dc4b27afbb2deed7ac2",
+      "blackFraction": 0,
+      "cyanFraction": 0.022481031378600823,
+      "pinkFraction": 0.0024645142103909465,
+      "elapsedMs": 672.4717610000007,
+      "validated": true
+    },
+    {
+      "frame": 16,
+      "camera": {
+        "center": [
+          124.01688551673249,
+          35.008442758366236
+        ],
+        "zoom": 4.008442758366235,
+        "pitch": 20.472794468509193,
+        "bearing": -11.594747598420668
+      },
+      "deckPasses": 37,
+      "webgl2": true,
+      "hash": "618afb732be047501ba87c9b02c1c0898bac6b12448f8c339372d5e7ea80ea90",
+      "blackFraction": 0,
+      "cyanFraction": 0.022516195666152265,
+      "pinkFraction": 0.0024715470679012347,
+      "elapsedMs": 677.3196910000006,
+      "validated": true
+    },
+    {
+      "frame": 17,
+      "camera": {
+        "center": [
+          124.02025355070964,
+          35.01012677535481
+        ],
+        "zoom": 4.010126775354813,
+        "pitch": 20.567099419869546,
+        "bearing": -11.513914782968982
+      },
+      "deckPasses": 39,
+      "webgl2": true,
+      "hash": "ba90c84e1484937f5283cc2543eae517e8e6fb42d1915f536f8cbd9d961c74b5",
+      "blackFraction": 0,
+      "cyanFraction": 0.02255537872942387,
+      "pinkFraction": 0.0024765705375514404,
+      "elapsedMs": 666.0004689999987,
+      "validated": true
+    },
+    {
+      "frame": 18,
+      "camera": {
+        "center": [
+          124.02404207362883,
+          35.012021036814424
+        ],
+        "zoom": 4.012021036814425,
+        "pitch": 20.673178061607814,
+        "bearing": -11.422990232907523
+      },
+      "deckPasses": 41,
+      "webgl2": true,
+      "hash": "cce8a630198d02449d5fad60f7f8878898a96a219944e4c9dc6dc8894c834d50",
+      "blackFraction": 0,
+      "cyanFraction": 0.022602599344135804,
+      "pinkFraction": 0.002486617476851852,
+      "elapsedMs": 724.8404780000019,
+      "validated": true
+    },
+    {
+      "frame": 19,
+      "camera": {
+        "center": [
+          124.02827582013379,
+          35.0141379100669
+        ],
+        "zoom": 4.014137910066897,
+        "pitch": 20.791722963746228,
+        "bearing": -11.321380316788918
+      },
+      "deckPasses": 43,
+      "webgl2": true,
+      "hash": "59adad12c65582858002768a2aae0e073435dd39337d07f2722d8405155f7e91",
+      "blackFraction": 0,
+      "cyanFraction": 0.022655848122427984,
+      "pinkFraction": 0.00249365033436214,
+      "elapsedMs": 785.2269840000008,
+      "validated": true
+    },
+    {
+      "frame": 20,
+      "camera": {
+        "center": [
+          124.0329795248681,
+          35.016489762434055
+        ],
+        "zoom": 4.016489762434054,
+        "pitch": 20.923426696307015,
+        "bearing": -11.208491403165453
+      },
+      "deckPasses": 45,
+      "webgl2": true,
+      "hash": "a600cb67dad2f712e5f4567ca345d596e314b76dbe13f1113b3b7076e6f5b745",
+      "blackFraction": 0,
+      "cyanFraction": 0.022711106288580248,
+      "pinkFraction": 0.002505706661522634,
+      "elapsedMs": 592.6266520000027,
+      "validated": true
+    },
+    {
+      "frame": 21,
+      "camera": {
+        "center": [
+          124.03817792247537,
+          35.01908896123772
+        ],
+        "zoom": 4.019088961237721,
+        "pitch": 21.068981829312406,
+        "bearing": -11.083729860589301
+      },
+      "deckPasses": 47,
+      "webgl2": true,
+      "hash": "019313ceeaec33d94b505002f8237d776e0b5d840fde63242c97ae567437d0de",
+      "blackFraction": 0,
+      "cyanFraction": 0.022769378536522635,
+      "pinkFraction": 0.002511734825102881,
+      "elapsedMs": 713.3315569999977,
+      "validated": true
+    },
+    {
+      "frame": 22,
+      "camera": {
+        "center": [
+          124.04389574759944,
+          35.021947873799725
+        ],
+        "zoom": 4.021947873799726,
+        "pitch": 21.229080932784637,
+        "bearing": -10.946502057613202
+      },
+      "deckPasses": 49,
+      "webgl2": true,
+      "hash": "608da672d54ef42d68b21f7fd4cea9f766c1cf9590f2baaa056488d3ec563669",
+      "blackFraction": 0,
+      "cyanFraction": 0.022834683641975308,
+      "pinkFraction": 0.0025247958461934155,
+      "elapsedMs": 803.0543570000009,
+      "validated": true
+    },
+    {
+      "frame": 23,
+      "camera": {
+        "center": [
+          124.05015773488378,
+          35.02507886744189
+        ],
+        "zoom": 4.025078867441891,
+        "pitch": 21.40441657674593,
+        "bearing": -10.796214362789215
+      },
+      "deckPasses": 51,
+      "webgl2": true,
+      "hash": "71fc7104154565e502f883a5da0081c9e610993c3b34fa372578292d15e5bdbc",
+      "blackFraction": 0,
+      "cyanFraction": 0.022913049768518517,
+      "pinkFraction": 0.0025368521733539094,
+      "elapsedMs": 621.5906050000012,
+      "validated": true
+    },
+    {
+      "frame": 24,
+      "camera": {
+        "center": [
+          124.05698861897213,
+          35.02849430948604
+        ],
+        "zoom": 4.028494309486045,
+        "pitch": 21.595681331218522,
+        "bearing": -10.632273144669853
+      },
+      "deckPasses": 53,
+      "webgl2": true,
+      "hash": "7bbce07a6ef103c3fffbc574d553372c2fde408c7f290c3964cb586d8a615f9d",
+      "blackFraction": 0,
+      "cyanFraction": 0.022986392425411523,
+      "pinkFraction": 0.0025529272762345677,
+      "elapsedMs": 638.7669170000008,
+      "validated": true
+    },
+    {
+      "frame": 25,
+      "camera": {
+        "center": [
+          124.06441313450796,
+          35.032206567254015
+        ],
+        "zoom": 4.032206567254011,
+        "pitch": 21.80356776622464,
+        "bearing": -10.454084771807402
+      },
+      "deckPasses": 55,
+      "webgl2": true,
+      "hash": "897302cdde041810663fc28635d87dce205254d1abc9a4af8e762d3d1b62ee5f",
+      "blackFraction": 0,
+      "cyanFraction": 0.02308083365483539,
+      "pinkFraction": 0.002565988297325103,
+      "elapsedMs": 667.0158699999993,
+      "validated": true
+    },
+    {
+      "frame": 26,
+      "camera": {
+        "center": [
+          124.07245601613522,
+          35.03622800806762
+        ],
+        "zoom": 4.036228008067616,
+        "pitch": 22.02876845178651,
+        "bearing": -10.26105561275449
+      },
+      "deckPasses": 57,
+      "webgl2": true,
+      "hash": "0f280b5ba2747a886de402991336e522b44a3bc876f08ca2f3adf67adfd8e908",
+      "blackFraction": 0,
+      "cyanFraction": 0.023173265496399177,
+      "pinkFraction": 0.00258105870627572,
+      "elapsedMs": 717.6020739999985,
+      "validated": true
+    },
+    {
+      "frame": 27,
+      "camera": {
+        "center": [
+          124.0811419984974,
+          35.040570999248686
+        ],
+        "zoom": 4.040570999248685,
+        "pitch": 22.271975957926372,
+        "bearing": -10.05259203606306
+      },
+      "deckPasses": 59,
+      "webgl2": true,
+      "hash": "54ac5411d3b4448659629c3e30df9b0b115c89688d736bacd6abd7c5e5f80cf8",
+      "blackFraction": 0,
+      "cyanFraction": 0.023284786522633744,
+      "pinkFraction": 0.002591105645576132,
+      "elapsedMs": 632.1686169999994,
+      "validated": true
+    },
+    {
+      "frame": 28,
+      "camera": {
+        "center": [
+          124.0904958162381,
+          35.045247908119045
+        ],
+        "zoom": 4.045247908119044,
+        "pitch": 22.533882854666448,
+        "bearing": -9.82810041028597
+      },
+      "deckPasses": 61,
+      "webgl2": true,
+      "hash": "a9afce81e47220f6d5cb90e6ef40a3ddd077da80894f75d8869cb0d632e19f3e",
+      "blackFraction": 0,
+      "cyanFraction": 0.023396307548868314,
+      "pinkFraction": 0.0026091901363168722,
+      "elapsedMs": 777.8388100000011,
+      "validated": true
+    },
+    {
+      "frame": 29,
+      "camera": {
+        "center": [
+          124.10054220400104,
+          35.050271102000515
+        ],
+        "zoom": 4.050271102000518,
+        "pitch": 22.815181712028973,
+        "bearing": -9.586987103975162
+      },
+      "deckPasses": 63,
+      "webgl2": true,
+      "hash": "85d19c582fc547e8886313d2d09740e25d466323165a0dedb874969ed3eed6c8",
+      "blackFraction": 0,
+      "cyanFraction": 0.02353093653549383,
+      "pinkFraction": 0.0026302887088477367,
+      "elapsedMs": 706.2040970000016,
+      "validated": true
+    },
+    {
+      "frame": 30,
+      "camera": {
+        "center": [
+          124.11130589642994,
+          35.055652948214934
+        ],
+        "zoom": 4.055652948214932,
+        "pitch": 23.116565100036176,
+        "bearing": -9.328658485683263
+      },
+      "deckPasses": 65,
+      "webgl2": true,
+      "hash": "948465da4e797938b428e3358463c18dcabb0bcaee384a9522bf812923d15160",
+      "blackFraction": 0,
+      "cyanFraction": 0.023643462255658436,
+      "pinkFraction": 0.0026473685056584363,
+      "elapsedMs": 694.7199700000019,
+      "validated": true
+    },
+    {
+      "frame": 31,
+      "camera": {
+        "center": [
+          124.12281162816817,
+          35.06140581408411
+        ],
+        "zoom": 4.061405814084112,
+        "pitch": 23.438725588710284,
+        "bearing": -9.052520923962675
+      },
+      "deckPasses": 67,
+      "webgl2": true,
+      "hash": "8ced7d3965ce18c25d04acad438893a71e7efebdd84f690415b2dba512a35d91",
+      "blackFraction": 0,
+      "cyanFraction": 0.023790147569444444,
+      "pinkFraction": 0.002666457690329218,
+      "elapsedMs": 657.7145020000025,
+      "validated": true
+    },
+    {
+      "frame": 32,
+      "camera": {
+        "center": [
+          124.13508413385978,
+          35.06754206692988
+        ],
+        "zoom": 4.067542066929884,
+        "pitch": 23.782355748073535,
+        "bearing": -8.757980787365568
+      },
+      "deckPasses": 69,
+      "webgl2": true,
+      "hash": "9cde3ce1e79fd99787377110fe81ed97e1a4bbfc21a1d8026a6ced9b9fc906d3",
+      "blackFraction": 0,
+      "cyanFraction": 0.02392578125,
+      "pinkFraction": 0.0026905703446502057,
+      "elapsedMs": 709.8672680000018,
+      "validated": true
+    },
+    {
+      "frame": 33,
+      "camera": {
+        "center": [
+          124.14814814814815,
+          35.074074074074076
+        ],
+        "zoom": 4.074074074074074,
+        "pitch": 24.148148148148145,
+        "bearing": -8.444444444444457
+      },
+      "deckPasses": 71,
+      "webgl2": true,
+      "hash": "2fd5b36ef11391b5daf2380e40fb310d5348557147e1777f53898d2f77dfbf9d",
+      "blackFraction": 0,
+      "cyanFraction": 0.02408351819701646,
+      "pinkFraction": 0.0027136783050411522,
+      "elapsedMs": 740.770927000005,
+      "validated": true
+    },
+    {
+      "frame": 34,
+      "camera": {
+        "center": [
+          124.162028405677,
+          35.0810142028385
+        ],
+        "zoom": 4.081014202838507,
+        "pitch": 24.53679535895636,
+        "bearing": -8.111318263751627
+      },
+      "deckPasses": 73,
+      "webgl2": true,
+      "hash": "82b08184f88744717146eb001c90ed28bd2871b4f9c41a071beaee9d9dfacd0a",
+      "blackFraction": 0,
+      "cyanFraction": 0.024261349022633744,
+      "pinkFraction": 0.002739800347222222,
+      "elapsedMs": 702.1292289999983,
+      "validated": true
+    },
+    {
+      "frame": 35,
+      "camera": {
+        "center": [
+          124.17674964109005,
+          35.088374820545006
+        ],
+        "zoom": 4.088374820545007,
+        "pitch": 24.948989950520406,
+        "bearing": -7.758008613839593
+      },
+      "deckPasses": 75,
+      "webgl2": true,
+      "hash": "98519e76ad419ed723bec2cd194bf8fea6417e9ad0fb5f2c832a7130544571c9",
+      "blackFraction": 0,
+      "cyanFraction": 0.02442913290895062,
+      "pinkFraction": 0.00276391300154321,
+      "elapsedMs": 732.2454839999991,
+      "validated": true
+    },
+    {
+      "frame": 36,
+      "camera": {
+        "center": [
+          124.19233658903079,
+          35.0961682945154
+        ],
+        "zoom": 4.096168294515402,
+        "pitch": 25.38542449286251,
+        "bearing": -7.383921863260639
+      },
+      "deckPasses": 77,
+      "webgl2": true,
+      "hash": "dc4e1d82ae596bbc69856089fa3336482311ec5f6fb046de8114f841a0304dc6",
+      "blackFraction": 0,
+      "cyanFraction": 0.024617010673868314,
+      "pinkFraction": 0.002791039737654321,
+      "elapsedMs": 733.7330740000034,
+      "validated": true
+    },
+    {
+      "frame": 37,
+      "camera": {
+        "center": [
+          124.20881398414303,
+          35.10440699207152
+        ],
+        "zoom": 4.1044069920715165,
+        "pitch": 25.846791556004902,
+        "bearing": -6.988464380567166
+      },
+      "deckPasses": 79,
+      "webgl2": true,
+      "hash": "5d3df3bee7ad65bd3d57a9199d97ca39d5211960acf849eafe5c9b3f76230e0b",
+      "blackFraction": 0,
+      "cyanFraction": 0.024818954153806583,
+      "pinkFraction": 0.002817161779835391,
+      "elapsedMs": 709.3003170000011,
+      "validated": true
+    },
+    {
+      "frame": 38,
+      "camera": {
+        "center": [
+          124.22620656107028,
+          35.11310328053518
+        ],
+        "zoom": 4.113103280535175,
+        "pitch": 26.33378370996981,
+        "bearing": -6.571042534311573
+      },
+      "deckPasses": 81,
+      "webgl2": true,
+      "hash": "c81f7959a112acaa913673785749fb6ba24a8aacf0d379be87d4e9f9be1d09b1",
+      "blackFraction": 0,
+      "cyanFraction": 0.02503395865483539,
+      "pinkFraction": 0.0028473025977366257,
+      "elapsedMs": 811.5279609999998,
+      "validated": true
+    },
+    {
+      "frame": 39,
+      "camera": {
+        "center": [
+          124.24453905445648,
+          35.122269527228205
+        ],
+        "zoom": 4.122269527228205,
+        "pitch": 26.847093524779474,
+        "bearing": -6.131062693046147
+      },
+      "deckPasses": 83,
+      "webgl2": true,
+      "hash": "c50f2f2f3d4d641cc045a3c635d173cb267b7698ab5e9998db5bd38f2500a4f3",
+      "blackFraction": 0,
+      "cyanFraction": 0.025245949074074073,
+      "pinkFraction": 0.0028804574974279837,
+      "elapsedMs": 677.1091699999961,
+      "validated": true
+    },
+    {
+      "frame": 40,
+      "camera": {
+        "center": [
+          124.26383619894489,
+          35.13191809947243
+        ],
+        "zoom": 4.131918099472431,
+        "pitch": 27.38741357045612,
+        "bearing": -5.6679312253232865
+      },
+      "deckPasses": 85,
+      "webgl2": true,
+      "hash": "6fbcbe067ecae01818f6fd51a000b83598155e0be44c846a258fee2502cae875",
+      "blackFraction": 0,
+      "cyanFraction": 0.025481047453703703,
+      "pinkFraction": 0.00292064525462963,
+      "elapsedMs": 683.5448139999935,
+      "validated": true
+    },
+    {
+      "frame": 41,
+      "camera": {
+        "center": [
+          124.28412272917933,
+          35.14206136458968
+        ],
+        "zoom": 4.142061364589678,
+        "pitch": 27.95543641702197,
+        "bearing": -5.181054499695392
+      },
+      "deckPasses": 87,
+      "webgl2": true,
+      "hash": "6b3b20f6d6a2c73598bfcb1fa4d0eaa231ae2eebe655b9eb01e9e249bf4e2270",
+      "blackFraction": 0,
+      "cyanFraction": 0.025725188078703703,
+      "pinkFraction": 0.002954804848251029,
+      "elapsedMs": 758.9750320000021,
+      "validated": true
+    },
+    {
+      "frame": 42,
+      "camera": {
+        "center": [
+          124.30542337980353,
+          35.15271168990177
+        ],
+        "zoom": 4.152711689901772,
+        "pitch": 28.551854634499264,
+        "bearing": -4.6698388847148635
+      },
+      "deckPasses": 89,
+      "webgl2": true,
+      "hash": "754cac9968a9638655f47a2328bd0c0d0bc6ac075f91e4770e15a987446c5f41",
+      "blackFraction": 0,
+      "cyanFraction": 0.025971338091563784,
+      "pinkFraction": 0.0029949926054526747,
+      "elapsedMs": 747.9428029999981,
+      "validated": true
+    },
+    {
+      "frame": 43,
+      "camera": {
+        "center": [
+          124.32776288546108,
+          35.16388144273054
+        ],
+        "zoom": 4.16388144273054,
+        "pitch": 29.17736079291023,
+        "bearing": -4.1336907489341
+      },
+      "deckPasses": 91,
+      "webgl2": true,
+      "hash": "e8b0f897b1a6491b0ee6cb3f9fdc04f3612f1c11ce623e8dd0dcd33f90cdfb16",
+      "blackFraction": 0,
+      "cyanFraction": 0.026239591370884774,
+      "pinkFraction": 0.0030251334233539094,
+      "elapsedMs": 680.1821610000043,
+      "validated": true
+    },
+    {
+      "frame": 44,
+      "camera": {
+        "center": [
+          124.3511659807956,
+          35.17558299039781
+        ],
+        "zoom": 4.175582990397805,
+        "pitch": 29.832647462277087,
+        "bearing": -3.572016460905388
+      },
+      "deckPasses": 94,
+      "webgl2": true,
+      "hash": "2937d9c3b639d433d1f397aa5e40520a11c02da7ef6aa3f2ebfe469df80bdc58",
+      "blackFraction": 0,
+      "cyanFraction": 0.02650683995627572,
+      "pinkFraction": 0.003073358731995885,
+      "elapsedMs": 809.7544469999993,
+      "validated": true
+    },
+    {
+      "frame": 45,
+      "camera": {
+        "center": [
+          124.37565740045079,
+          35.187828700225396
+        ],
+        "zoom": 4.187828700225395,
+        "pitch": 30.518407212622087,
+        "bearing": -2.9842223891810136
+      },
+      "deckPasses": 96,
+      "webgl2": true,
+      "hash": "f64c39b99c0df91c66b6915c270d66637e32a0ced27b57aea3395bcbaa87308e",
+      "blackFraction": 0,
+      "cyanFraction": 0.02679217303240741,
+      "pinkFraction": 0.0031205793467078188,
+      "elapsedMs": 693.9380470000033,
+      "validated": true
+    },
+    {
+      "frame": 46,
+      "camera": {
+        "center": [
+          124.40126187907026,
+          35.20063093953513
+        ],
+        "zoom": 4.200630939535133,
+        "pitch": 31.235332613967447,
+        "bearing": -2.3697149023136035
+      },
+      "deckPasses": 98,
+      "webgl2": true,
+      "hash": "a69214ddf0c40e4d2cd034310b3141df7a8fa1ff51622fa5035d9129eae956b9",
+      "blackFraction": 0,
+      "cyanFraction": 0.027099609375,
+      "pinkFraction": 0.003161771797839506,
+      "elapsedMs": 706.8933460000044,
+      "validated": true
+    },
+    {
+      "frame": 47,
+      "camera": {
+        "center": [
+          124.42800415129773,
+          35.21400207564885
+        ],
+        "zoom": 4.214002075648846,
+        "pitch": 31.984116236335396,
+        "bearing": -1.727900368855444
+      },
+      "deckPasses": 100,
+      "webgl2": true,
+      "hash": "eaf464e5f7a905e8829128ff6240b72e9f5358ddb923ee4ae183a7f2fcb45fee",
+      "blackFraction": 0,
+      "cyanFraction": 0.027420106738683128,
+      "pinkFraction": 0.0032180346579218106,
+      "elapsedMs": 712.639185,
+      "validated": true
+    },
+    {
+      "frame": 48,
+      "camera": {
+        "center": [
+          124.45590895177679,
+          35.22795447588836
+        ],
+        "zoom": 4.22795447588836,
+        "pitch": 32.765450649748175,
+        "bearing": -1.0581851573587073
+      },
+      "deckPasses": 102,
+      "webgl2": true,
+      "hash": "7788fdfecc4eff38fb0c5391914e387912f4b7e77afe744f8101d3da73bcf61d",
+      "blackFraction": 0,
+      "cyanFraction": 0.027731561856995886,
+      "pinkFraction": 0.003259227109053498,
+      "elapsedMs": 739.2873810000019,
+      "validated": true
+    },
+    {
+      "frame": 49,
+      "camera": {
+        "center": [
+          124.48500101515106,
+          35.2425005075755
+        ],
+        "zoom": 4.2425005075755,
+        "pitch": 33.580028424228,
+        "bearing": -0.3599756363760207
+      },
+      "deckPasses": 104,
+      "webgl2": true,
+      "hash": "7e8458cc37f857a8cad0b6b637c40e6d82ba4e7a0d0ef33b1c0b5a19de5bdac2",
+      "blackFraction": 0,
+      "cyanFraction": 0.028097270447530864,
+      "pinkFraction": 0.0033365885416666665,
+      "elapsedMs": 792.2326329999996,
+      "validated": true
+    },
+    {
+      "frame": 50,
+      "camera": {
+        "center": [
+          124.51499898484894,
+          35.2574994924245
+        ],
+        "zoom": 4.2574994924245,
+        "pitch": 34.41997157577201,
+        "bearing": 0.3599756363760207
+      },
+      "deckPasses": 106,
+      "webgl2": true,
+      "hash": "a275c90f6fa1c53b8657376e423ebb07a06d58bbae06a983e4ca5c4f124263b5",
+      "blackFraction": 0,
+      "cyanFraction": 0.02839968332047325,
+      "pinkFraction": 0.003397874871399177,
+      "elapsedMs": 652.2592409999997,
+      "validated": true
+    },
+    {
+      "frame": 51,
+      "camera": {
+        "center": [
+          124.54409104822321,
+          35.27204552411164
+        ],
+        "zoom": 4.27204552411164,
+        "pitch": 35.234549350251825,
+        "bearing": 1.0581851573587073
+      },
+      "deckPasses": 108,
+      "webgl2": true,
+      "hash": "75f85eefe02965f575443e8455234d5021b3e9c98b56847323dcfc454b8521c3",
+      "blackFraction": 0,
+      "cyanFraction": 0.02872821823559671,
+      "pinkFraction": 0.0034219875257201645,
+      "elapsedMs": 740.6374199999991,
+      "validated": true
+    },
+    {
+      "frame": 52,
+      "camera": {
+        "center": [
+          124.57199584870227,
+          35.28599792435115
+        ],
+        "zoom": 4.285997924351154,
+        "pitch": 36.015883763664604,
+        "bearing": 1.727900368855444
+      },
+      "deckPasses": 110,
+      "webgl2": true,
+      "hash": "22d79363d11b0a72981aed3756366fbd6f07118fbe155abb92b7f2dd938c3246",
+      "blackFraction": 0,
+      "cyanFraction": 0.02899948559670782,
+      "pinkFraction": 0.0034872926311728396,
+      "elapsedMs": 674.129958999998,
+      "validated": true
+    },
+    {
+      "frame": 53,
+      "camera": {
+        "center": [
+          124.59873812092974,
+          35.29936906046487
+        ],
+        "zoom": 4.299369060464867,
+        "pitch": 36.764667386032556,
+        "bearing": 2.3697149023136035
+      },
+      "deckPasses": 112,
+      "webgl2": true,
+      "hash": "4b81dfbab667035b70aabdec998ccdcf8bd4c0dc275b7e6eacc8416d60df5eac",
+      "blackFraction": 0,
+      "cyanFraction": 0.029308931327160493,
+      "pinkFraction": 0.00354857896090535,
+      "elapsedMs": 618.2541800000035,
+      "validated": true
+    },
+    {
+      "frame": 54,
+      "camera": {
+        "center": [
+          124.62434259954921,
+          35.312171299774604
+        ],
+        "zoom": 4.312171299774605,
+        "pitch": 37.481592787377906,
+        "bearing": 2.9842223891810136
+      },
+      "deckPasses": 114,
+      "webgl2": true,
+      "hash": "4b1c593fd05dc2ca51bb46ffee77244b0491baae78f9353372fce7ee4e3f31eb",
+      "blackFraction": 0,
+      "cyanFraction": 0.029583212770061727,
+      "pinkFraction": 0.0036048418209876543,
+      "elapsedMs": 632.9342350000006,
+      "validated": true
+    },
+    {
+      "frame": 55,
+      "camera": {
+        "center": [
+          124.6488340192044,
+          35.32441700960219
+        ],
+        "zoom": 4.324417009602195,
+        "pitch": 38.167352537722905,
+        "bearing": 3.572016460905388
+      },
+      "deckPasses": 116,
+      "webgl2": true,
+      "hash": "d023a87ef26ca913e9a7549aeb035ef6a2a3a905ccc7100247f28a8551898b31",
+      "blackFraction": 0,
+      "cyanFraction": 0.029834386252572016,
+      "pinkFraction": 0.0036520624356995886,
+      "elapsedMs": 640.1384790000011,
+      "validated": true
+    },
+    {
+      "frame": 56,
+      "camera": {
+        "center": [
+          124.67223711453892,
+          35.33611855726946
+        ],
+        "zoom": 4.33611855726946,
+        "pitch": 38.82263920708977,
+        "bearing": 4.1336907489341
+      },
+      "deckPasses": 118,
+      "webgl2": true,
+      "hash": "3d30823b66c3da082788bda21a66debe2b0d880a28673c911a590a5c4cb696e0",
+      "blackFraction": 0,
+      "cyanFraction": 0.030086564429012346,
+      "pinkFraction": 0.003701292438271605,
+      "elapsedMs": 637.0801449999999,
+      "validated": true
+    },
+    {
+      "frame": 57,
+      "camera": {
+        "center": [
+          124.69457662019647,
+          35.34728831009823
+        ],
+        "zoom": 4.347288310098228,
+        "pitch": 39.448145365500736,
+        "bearing": 4.6698388847148635
+      },
+      "deckPasses": 120,
+      "webgl2": true,
+      "hash": "9c6a3f57ff54936335b24522f07380de3a9b57ac69ab48673013a5cae50d1679",
+      "blackFraction": 0,
+      "cyanFraction": 0.030302573623971193,
+      "pinkFraction": 0.003747508359053498,
+      "elapsedMs": 663.0143160000007,
+      "validated": true
+    },
+    {
+      "frame": 58,
+      "camera": {
+        "center": [
+          124.71587727082067,
+          35.35793863541032
+        ],
+        "zoom": 4.3579386354103224,
+        "pitch": 40.04456358297803,
+        "bearing": 5.181054499695392
+      },
+      "deckPasses": 122,
+      "webgl2": true,
+      "hash": "9445f5eab03b7b8002881c56917065ed2fa30a93cabeca39109b0621fa5aac7d",
+      "blackFraction": 0,
+      "cyanFraction": 0.03050853587962963,
+      "pinkFraction": 0.0037947289737654323,
+      "elapsedMs": 642.6355769999936,
+      "validated": true
+    },
+    {
+      "frame": 59,
+      "camera": {
+        "center": [
+          124.73616380105511,
+          35.36808190052757
+        ],
+        "zoom": 4.368081900527569,
+        "pitch": 40.61258642954388,
+        "bearing": 5.6679312253232865
+      },
+      "deckPasses": 124,
+      "webgl2": true,
+      "hash": "68bae9be2a38eab02959f312e75cb9b0c1b07da8941158d276b49983698aeac8",
+      "blackFraction": 0,
+      "cyanFraction": 0.030707465277777776,
+      "pinkFraction": 0.0038439589763374486,
+      "elapsedMs": 678.4800879999966,
+      "validated": true
+    },
+    {
+      "frame": 60,
+      "camera": {
+        "center": [
+          124.75546094554352,
+          35.377730472771795
+        ],
+        "zoom": 4.377730472771795,
+        "pitch": 41.152906475220526,
+        "bearing": 6.131062693046147
+      },
+      "deckPasses": 126,
+      "webgl2": true,
+      "hash": "42bdef03b83a1856ca91ad40ab02b4118e8c16e5bec406819881b44c0705f8d0",
+      "blackFraction": 0,
+      "cyanFraction": 0.03089333365483539,
+      "pinkFraction": 0.003891179591049383,
+      "elapsedMs": 638.0628880000004,
+      "validated": true
+    },
+    {
+      "frame": 61,
+      "camera": {
+        "center": [
+          124.77379343892972,
+          35.38689671946482
+        ],
+        "zoom": 4.386896719464825,
+        "pitch": 41.666216290030185,
+        "bearing": 6.571042534311573
+      },
+      "deckPasses": 129,
+      "webgl2": true,
+      "hash": "caaf9cb48979a86991d84cc6b7f46491b8ed4448454ae190fb34962340c82683",
+      "blackFraction": 0,
+      "cyanFraction": 0.031057098765432098,
+      "pinkFraction": 0.0039313673482510286,
+      "elapsedMs": 787.442203000006,
+      "validated": true
+    },
+    {
+      "frame": 62,
+      "camera": {
+        "center": [
+          124.79118601585697,
+          35.39559300792848
+        ],
+        "zoom": 4.395593007928484,
+        "pitch": 42.1532084439951,
+        "bearing": 6.988464380567166
+      },
+      "deckPasses": 131,
+      "webgl2": true,
+      "hash": "7f699724f8cf6823fd88afbcc783abff106a81be1601f7c18c7484e5dbfb8d2c",
+      "blackFraction": 0,
+      "cyanFraction": 0.03122387795781893,
+      "pinkFraction": 0.003983611432613169,
+      "elapsedMs": 730.9843829999954,
+      "validated": true
+    },
+    {
+      "frame": 63,
+      "camera": {
+        "center": [
+          124.80766341096921,
+          35.4038317054846
+        ],
+        "zoom": 4.403831705484598,
+        "pitch": 42.61457550713749,
+        "bearing": 7.383921863260639
+      },
+      "deckPasses": 133,
+      "webgl2": true,
+      "hash": "8ce7251b10d359a6e6f07fa30f675c99b0f2782e4ca0a34b613510faeda5482c",
+      "blackFraction": 0,
+      "cyanFraction": 0.031366544495884774,
+      "pinkFraction": 0.004026813271604938,
+      "elapsedMs": 667.4335970000029,
+      "validated": true
+    },
+    {
+      "frame": 64,
+      "camera": {
+        "center": [
+          124.82325035890995,
+          35.411625179454994
+        ],
+        "zoom": 4.411625179454993,
+        "pitch": 43.05101004947959,
+        "bearing": 7.758008613839593
+      },
+      "deckPasses": 135,
+      "webgl2": true,
+      "hash": "b899c2a8b65aa190b6f73423b6e4967e7692e0c5593b4dcd9c9461052831f193",
+      "blackFraction": 0,
+      "cyanFraction": 0.03149815940072016,
+      "pinkFraction": 0.004070015110596708,
+      "elapsedMs": 615.3534959999961,
+      "validated": true
+    },
+    {
+      "frame": 65,
+      "camera": {
+        "center": [
+          124.837971594323,
+          35.4189857971615
+        ],
+        "zoom": 4.418985797161493,
+        "pitch": 43.46320464104364,
+        "bearing": 8.111318263751627
+      },
+      "deckPasses": 138,
+      "webgl2": true,
+      "hash": "5b4b9ed538e5f673251c9246524c4b514b551469188135d6c880beb977d21071",
+      "blackFraction": 0,
+      "cyanFraction": 0.03163379308127572,
+      "pinkFraction": 0.004104174704218107,
+      "elapsedMs": 794.3206549999959,
+      "validated": true
+    },
+    {
+      "frame": 66,
+      "camera": {
+        "center": [
+          124.85185185185185,
+          35.425925925925924
+        ],
+        "zoom": 4.425925925925926,
+        "pitch": 43.85185185185185,
+        "bearing": 8.444444444444457
+      },
+      "deckPasses": 140,
+      "webgl2": true,
+      "hash": "202cd0693997c0d546657384273bd2fd207fa723a039335072e40a17c30cc567",
+      "blackFraction": 0,
+      "cyanFraction": 0.03175837512860082,
+      "pinkFraction": 0.004146371849279835,
+      "elapsedMs": 653.3791149999961,
+      "validated": true
+    },
+    {
+      "frame": 67,
+      "camera": {
+        "center": [
+          124.86491586614022,
+          35.43245793307012
+        ],
+        "zoom": 4.432457933070116,
+        "pitch": 44.217644251926465,
+        "bearing": 8.757980787365568
+      },
+      "deckPasses": 142,
+      "webgl2": true,
+      "hash": "b6a360aa61b0f188104ed01a6718a719cffe5c76880648bee52a74aaf57edab5",
+      "blackFraction": 0,
+      "cyanFraction": 0.0318628632973251,
+      "pinkFraction": 0.0041875643004115224,
+      "elapsedMs": 674.963158999999,
+      "validated": true
+    },
+    {
+      "frame": 68,
+      "camera": {
+        "center": [
+          124.87718837183183,
+          35.43859418591589
+        ],
+        "zoom": 4.438594185915888,
+        "pitch": 44.561274411289716,
+        "bearing": 9.052520923962675
+      },
+      "deckPasses": 144,
+      "webgl2": true,
+      "hash": "29dd3c1fe9698a85703d0afd5a135d6159b7074572b9233ea7f452340a50b38b",
+      "blackFraction": 0,
+      "cyanFraction": 0.03195931391460905,
+      "pinkFraction": 0.004226747363683127,
+      "elapsedMs": 638.9256810000006,
+      "validated": true
+    },
+    {
+      "frame": 69,
+      "camera": {
+        "center": [
+          124.88869410357006,
+          35.444347051785066
+        ],
+        "zoom": 4.444347051785068,
+        "pitch": 44.88343489996383,
+        "bearing": 9.328658485683263
+      },
+      "deckPasses": 146,
+      "webgl2": true,
+      "hash": "ad50f6aa95b40996de8944d572c4df832632851e438991568990187da31bebb3",
+      "blackFraction": 0,
+      "cyanFraction": 0.032057773919753084,
+      "pinkFraction": 0.00425487879372428,
+      "elapsedMs": 696.2981329999966,
+      "validated": true
+    },
+    {
+      "frame": 70,
+      "camera": {
+        "center": [
+          124.89945779599896,
+          35.449728897999485
+        ],
+        "zoom": 4.449728897999482,
+        "pitch": 45.18481828797103,
+        "bearing": 9.586987103975162
+      },
+      "deckPasses": 148,
+      "webgl2": true,
+      "hash": "0a899d45a407c6f23ccd318c7242eb426904582f32ba8d0be203b537c8278ae6",
+      "blackFraction": 0,
+      "cyanFraction": 0.03213111657664609,
+      "pinkFraction": 0.0042880336934156375,
+      "elapsedMs": 667.7168629999942,
+      "validated": true
+    },
+    {
+      "frame": 71,
+      "camera": {
+        "center": [
+          124.9095041837619,
+          35.454752091880955
+        ],
+        "zoom": 4.454752091880956,
+        "pitch": 45.466117145333556,
+        "bearing": 9.82810041028597
+      },
+      "deckPasses": 150,
+      "webgl2": true,
+      "hash": "c2978d511c1d18572eadd9987a12a9911a8ff88ed3a22d217c0b1b6f0e1666c7",
+      "blackFraction": 0,
+      "cyanFraction": 0.03220044045781893,
+      "pinkFraction": 0.004318174511316873,
+      "elapsedMs": 758.0281440000035,
+      "validated": true
+    },
+    {
+      "frame": 72,
+      "camera": {
+        "center": [
+          124.9188580015026,
+          35.459429000751314
+        ],
+        "zoom": 4.459429000751315,
+        "pitch": 45.72802404207363,
+        "bearing": 10.05259203606306
+      },
+      "deckPasses": 152,
+      "webgl2": true,
+      "hash": "4e699b650f6a7f083bd466761cf37068fd2061a393f3905463e8e63623758744",
+      "blackFraction": 0,
+      "cyanFraction": 0.032275792502572016,
+      "pinkFraction": 0.004348315329218107,
+      "elapsedMs": 739.7478510000001,
+      "validated": true
+    },
+    {
+      "frame": 73,
+      "camera": {
+        "center": [
+          124.92754398386478,
+          35.46377199193238
+        ],
+        "zoom": 4.463771991932384,
+        "pitch": 45.97123154821349,
+        "bearing": 10.26105561275449
+      },
+      "deckPasses": 154,
+      "webgl2": true,
+      "hash": "a41fd0873a969a8d3e06db746b6dc7aab875bbc6636b7dd9bfa280915b9ab017",
+      "blackFraction": 0,
+      "cyanFraction": 0.032343106995884774,
+      "pinkFraction": 0.00437644675925926,
+      "elapsedMs": 667.6116320000001,
+      "validated": true
+    },
+    {
+      "frame": 74,
+      "camera": {
+        "center": [
+          124.93558686549204,
+          35.467793432745985
+        ],
+        "zoom": 4.467793432745989,
+        "pitch": 46.19643223377536,
+        "bearing": 10.454084771807402
+      },
+      "deckPasses": 156,
+      "webgl2": true,
+      "hash": "a2425ca91079e921e0be07e251b0f6ec1437b192f566f34f6626fd98496da824",
+      "blackFraction": 0,
+      "cyanFraction": 0.03239233699845679,
+      "pinkFraction": 0.004408596965020576,
+      "elapsedMs": 741.7440839999981,
+      "validated": true
+    },
+    {
+      "frame": 75,
+      "camera": {
+        "center": [
+          124.94301138102787,
+          35.47150569051396
+        ],
+        "zoom": 4.471505690513955,
+        "pitch": 46.40431866878148,
+        "bearing": 10.632273144669853
+      },
+      "deckPasses": 158,
+      "webgl2": true,
+      "hash": "c33c4d04307f48b301bbea133aec1be4fcc26a9c17c3eed6e911802f8a582768",
+      "blackFraction": 0,
+      "cyanFraction": 0.032432524755658436,
+      "pinkFraction": 0.00443773308899177,
+      "elapsedMs": 762.6139780000012,
+      "validated": true
+    },
+    {
+      "frame": 76,
+      "camera": {
+        "center": [
+          124.94984226511622,
+          35.47492113255811
+        ],
+        "zoom": 4.474921132558109,
+        "pitch": 46.59558342325407,
+        "bearing": 10.796214362789215
+      },
+      "deckPasses": 160,
+      "webgl2": true,
+      "hash": "430021246fa86e2ca6e114d5b906141ba56b0026e94277aac8a3d13cda7cee51",
+      "blackFraction": 0,
+      "cyanFraction": 0.0324877829218107,
+      "pinkFraction": 0.0044588316615226335,
+      "elapsedMs": 775.6577700000053,
+      "validated": true
+    },
+    {
+      "frame": 77,
+      "camera": {
+        "center": [
+          124.95610425240056,
+          35.478052126200275
+        ],
+        "zoom": 4.478052126200274,
+        "pitch": 46.77091906721537,
+        "bearing": 10.946502057613202
+      },
+      "deckPasses": 162,
+      "webgl2": true,
+      "hash": "2a9471baa97afedb44207d32a98cd8761e563240cd65666e64bc78ca415f82a9",
+      "blackFraction": 0,
+      "cyanFraction": 0.03251892843364197,
+      "pinkFraction": 0.004486963091563786,
+      "elapsedMs": 868.0631230000072,
+      "validated": true
+    },
+    {
+      "frame": 78,
+      "camera": {
+        "center": [
+          124.96182207752463,
+          35.48091103876228
+        ],
+        "zoom": 4.480911038762279,
+        "pitch": 46.931018170687594,
+        "bearing": 11.083729860589301
+      },
+      "deckPasses": 164,
+      "webgl2": true,
+      "hash": "3ffa18c6f185104b2f0b26b66ef0a34714bde0509a9597c44a6a99c8a06e16f7",
+      "blackFraction": 0,
+      "cyanFraction": 0.03255409272119342,
+      "pinkFraction": 0.004509066358024691,
+      "elapsedMs": 763.2502509999904,
+      "validated": true
+    },
+    {
+      "frame": 79,
+      "camera": {
+        "center": [
+          124.9670204751319,
+          35.483510237565945
+        ],
+        "zoom": 4.483510237565946,
+        "pitch": 47.07657330369298,
+        "bearing": 11.208491403165453
+      },
+      "deckPasses": 166,
+      "webgl2": true,
+      "hash": "1ba4fe9b091e654b5a823cd6c70a5853b7982763916b7621d83c4b3bc66140a6",
+      "blackFraction": 0,
+      "cyanFraction": 0.0325902617026749,
+      "pinkFraction": 0.0045281555426954735,
+      "elapsedMs": 814.9794640000036,
+      "validated": true
+    },
+    {
+      "frame": 80,
+      "camera": {
+        "center": [
+          124.97172417986621,
+          35.4858620899331
+        ],
+        "zoom": 4.485862089933103,
+        "pitch": 47.208277036253776,
+        "bearing": 11.321380316788918
+      },
+      "deckPasses": 168,
+      "webgl2": true,
+      "hash": "44347756e0c401283206d1978f21b8f1368e4ce2679bf0ccdcff359f3e0de26b",
+      "blackFraction": 0,
+      "cyanFraction": 0.032621407214506175,
+      "pinkFraction": 0.004557291666666667,
+      "elapsedMs": 805.479938000004,
+      "validated": true
+    },
+    {
+      "frame": 81,
+      "camera": {
+        "center": [
+          124.97595792637117,
+          35.487978963185576
+        ],
+        "zoom": 4.487978963185575,
+        "pitch": 47.326821938392186,
+        "bearing": 11.422990232907523
+      },
+      "deckPasses": 170,
+      "webgl2": true,
+      "hash": "94e0cc93f31f8ec44e00cef0950495df8d9e5b91c93c0717083c4b6c40d9f41f",
+      "blackFraction": 0,
+      "cyanFraction": 0.032642505787037035,
+      "pinkFraction": 0.004589441872427984,
+      "elapsedMs": 772.2452159999957,
+      "validated": true
+    },
+    {
+      "frame": 82,
+      "camera": {
+        "center": [
+          124.97974644929036,
+          35.48987322464519
+        ],
+        "zoom": 4.489873224645187,
+        "pitch": 47.43290058013045,
+        "bearing": 11.513914782968982
+      },
+      "deckPasses": 172,
+      "webgl2": true,
+      "hash": "fbd5a3f69421b5f545c60cc12ffd21535ac636d84801753834033dc4ab8a8422",
+      "blackFraction": 0,
+      "cyanFraction": 0.03268269354423868,
+      "pinkFraction": 0.004605516975308642,
+      "elapsedMs": 759.2386790000019,
+      "validated": true
+    },
+    {
+      "frame": 83,
+      "camera": {
+        "center": [
+          124.98311448326751,
+          35.491557241633764
+        ],
+        "zoom": 4.491557241633765,
+        "pitch": 47.52720553149081,
+        "bearing": 11.594747598420668
+      },
+      "deckPasses": 174,
+      "webgl2": true,
+      "hash": "70442ad79e7f6b2eeb7b40f8db110de333550627fc0c4aa162c7dca89e0d9072",
+      "blackFraction": 0,
+      "cyanFraction": 0.03268671231995885,
+      "pinkFraction": 0.004618577996399177,
+      "elapsedMs": 702.6928289999923,
+      "validated": true
+    },
+    {
+      "frame": 84,
+      "camera": {
+        "center": [
+          124.98608676294634,
+          35.493043381473136
+        ],
+        "zoom": 4.493043381473133,
+        "pitch": 47.61042936249548,
+        "bearing": 11.666082310710408
+      },
+      "deckPasses": 176,
+      "webgl2": true,
+      "hash": "7a35db8279efe69fbd61b57bce7c38b3eda386155ad132745651a6af4a4b9fd8",
+      "blackFraction": 0,
+      "cyanFraction": 0.0326977639531893,
+      "pinkFraction": 0.004642690650720165,
+      "elapsedMs": 726.4885919999942,
+      "validated": true
+    },
+    {
+      "frame": 85,
+      "camera": {
+        "center": [
+          124.98868802297022,
+          35.49434401148512
+        ],
+        "zoom": 4.494344011485119,
+        "pitch": 47.683264643166694,
+        "bearing": 11.728512551285803
+      },
+      "deckPasses": 178,
+      "webgl2": true,
+      "hash": "dedd4fc4246bcd1c5ecd94c6bc0461882143333159e356d74b5309127b95e79b",
+      "blackFraction": 0,
+      "cyanFraction": 0.03270982028034979,
+      "pinkFraction": 0.004652737590020576,
+      "elapsedMs": 692.1143349999911,
+      "validated": true
+    },
+    {
+      "frame": 86,
+      "camera": {
+        "center": [
+          124.9909429979831,
+          35.49547149899155
+        ],
+        "zoom": 4.495471498991548,
+        "pitch": 47.74640394352669,
+        "bearing": 11.78263195159434
+      },
+      "deckPasses": 180,
+      "webgl2": true,
+      "hash": "77524064489d12c21176fbd08856adb6018ae9221d41cdfa0d4bcff19900dcad",
+      "blackFraction": 0,
+      "cyanFraction": 0.03269876864711934,
+      "pinkFraction": 0.004671826774691358,
+      "elapsedMs": 732.7041150000005,
+      "validated": true
+    },
+    {
+      "frame": 87,
+      "camera": {
+        "center": [
+          124.99287642262846,
+          35.49643821131424
+        ],
+        "zoom": 4.496438211314245,
+        "pitch": 47.80053983359768,
+        "bearing": 11.829034143083732
+      },
+      "deckPasses": 183,
+      "webgl2": true,
+      "hash": "5cf2b449f2d376c38a0378f111c2baf5c46d583b0e6ff418868b953aeb436284",
+      "blackFraction": 0,
+      "cyanFraction": 0.032715848443930044,
+      "pinkFraction": 0.004680869020061728,
+      "elapsedMs": 893.7475259999919,
+      "validated": true
+    },
+    {
+      "frame": 88,
+      "camera": {
+        "center": [
+          124.99451303155001,
+          35.497256515775035
+        ],
+        "zoom": 4.497256515775034,
+        "pitch": 47.84636488340192,
+        "bearing": 11.868312757201693
+      },
+      "deckPasses": 185,
+      "webgl2": true,
+      "hash": "366afdc1cae658d29bc43fb0703e25a47c47ebadfb2b1347455f79daa166c266",
+      "blackFraction": 0,
+      "cyanFraction": 0.03271484375,
+      "pinkFraction": 0.004703976980452675,
+      "elapsedMs": 723.044458999997,
+      "validated": true
+    },
+    {
+      "frame": 89,
+      "camera": {
+        "center": [
+          124.99587755939149,
+          35.497938779695744
+        ],
+        "zoom": 4.497938779695743,
+        "pitch": 47.884571662961626,
+        "bearing": 11.90106142539571
+      },
+      "deckPasses": 187,
+      "webgl2": true,
+      "hash": "b31ecf559309c454edf6179b4e0822577be918c61c4f9a6fc89f696d49fb7f98",
+      "blackFraction": 0,
+      "cyanFraction": 0.032727904771090534,
+      "pinkFraction": 0.0047140239197530865,
+      "elapsedMs": 1289.505846,
+      "validated": true
+    },
+    {
+      "frame": 90,
+      "camera": {
+        "center": [
+          124.99699474079637,
+          35.4984973703982
+        ],
+        "zoom": 4.498497370398197,
+        "pitch": 47.91585274229902,
+        "bearing": 11.927873779113497
+      },
+      "deckPasses": 189,
+      "webgl2": true,
+      "hash": "cfdea4cd54944d55ee2b4a8195c01a8d8a843f76ec4ea4a09d5262fe7e15ddc6",
+      "blackFraction": 0,
+      "cyanFraction": 0.032727904771090534,
+      "pinkFraction": 0.004728089634773663,
+      "elapsedMs": 841.980012,
+      "validated": true
+    },
+    {
+      "frame": 91,
+      "camera": {
+        "center": [
+          124.99788931040848,
+          35.49894465520422
+        ],
+        "zoom": 4.4989446552042205,
+        "pitch": 47.940900691436354,
+        "bearing": 11.949343449802655
+      },
+      "deckPasses": 191,
+      "webgl2": true,
+      "hash": "2eadb422de5fcca943ebab52dbc746fffe61833422dd54aa40bb6a320b2ea395",
+      "blackFraction": 0,
+      "cyanFraction": 0.03274699395576132,
+      "pinkFraction": 0.004744164737654321,
+      "elapsedMs": 783.7295319999976,
+      "validated": true
+    },
+    {
+      "frame": 92,
+      "camera": {
+        "center": [
+          124.9985860028712,
+          35.49929300143564
+        ],
+        "zoom": 4.49929300143564,
+        "pitch": 47.96040808039584,
+        "bearing": 11.966064068910782
+      },
+      "deckPasses": 193,
+      "webgl2": true,
+      "hash": "74c52a34b26d1fb02cc8018e78962fd02f4ebec6c573c85e6cc488197fdf5aee",
+      "blackFraction": 0,
+      "cyanFraction": 0.03271685313786008,
+      "pinkFraction": 0.004763253922325103,
+      "elapsedMs": 823.701086999994,
+      "validated": true
+    },
+    {
+      "frame": 93,
+      "camera": {
+        "center": [
+          124.99910955282849,
+          35.49955477641428
+        ],
+        "zoom": 4.49955477641428,
+        "pitch": 47.97506747919971,
+        "bearing": 11.97862926788548
+      },
+      "deckPasses": 195,
+      "webgl2": true,
+      "hash": "1573252e22af38ea721bd4be4a22e9b4b565a9f832817e39c30e7d702883bf94",
+      "blackFraction": 0,
+      "cyanFraction": 0.032717857831790126,
+      "pinkFraction": 0.004770286779835391,
+      "elapsedMs": 745.0567230000015,
+      "validated": true
+    },
+    {
+      "frame": 94,
+      "camera": {
+        "center": [
+          124.99948469492392,
+          35.49974234746197
+        ],
+        "zoom": 4.499742347461968,
+        "pitch": 47.9855714578702,
+        "bearing": 11.987632678174464
+      },
+      "deckPasses": 197,
+      "webgl2": true,
+      "hash": "40cc3b8de4f39a13f446280a4d283d3b775eb06d3ca292b87cd6503ca4d416e0",
+      "blackFraction": 0,
+      "cyanFraction": 0.032708815586419755,
+      "pinkFraction": 0.004779329025205762,
+      "elapsedMs": 829.086798999997,
+      "validated": true
+    },
+    {
+      "frame": 95,
+      "camera": {
+        "center": [
+          124.99973616380112,
+          35.49986808190053
+        ],
+        "zoom": 4.4998680819005275,
+        "pitch": 47.992612586429544,
+        "bearing": 11.993667931225332
+      },
+      "deckPasses": 199,
+      "webgl2": true,
+      "hash": "a90ba900b485187018c7410c145777f29d566c8fc024952ad7f96e9fa1f9fe09",
+      "blackFraction": 0,
+      "cyanFraction": 0.03271082497427984,
+      "pinkFraction": 0.004784352494855967,
+      "elapsedMs": 905.2525750000059,
+      "validated": true
+    },
+    {
+      "frame": 96,
+      "camera": {
+        "center": [
+          124.99988869410356,
+          35.49994434705179
+        ],
+        "zoom": 4.499944347051785,
+        "pitch": 47.996883434899964,
+        "bearing": 11.997328658485685
+      },
+      "deckPasses": 201,
+      "webgl2": true,
+      "hash": "35be533fc1a90d4c3ebf1840845186b85b96a683324197f46b015d726ce31d47",
+      "blackFraction": 0,
+      "cyanFraction": 0.032702787422839504,
+      "pinkFraction": 0.004802436985596708,
+      "elapsedMs": 735.2584120000101,
+      "validated": true
+    },
+    {
+      "frame": 97,
+      "camera": {
+        "center": [
+          124.9999670204752,
+          35.49998351023756
+        ],
+        "zoom": 4.499983510237566,
+        "pitch": 47.9990765733037,
+        "bearing": 11.999208491403124
+      },
+      "deckPasses": 203,
+      "webgl2": true,
+      "hash": "f776fd3b174e80caa57d12df3331d6c4dbd69b0a91afdd191232d7e3515ddea2",
+      "blackFraction": 0,
+      "cyanFraction": 0.03269173578960905,
+      "pinkFraction": 0.004816502700617284,
+      "elapsedMs": 733.6090929999918,
+      "validated": true
+    },
+    {
+      "frame": 98,
+      "camera": {
+        "center": [
+          124.9999958775594,
+          35.49999793877969
+        ],
+        "zoom": 4.499997938779695,
+        "pitch": 47.99988457166296,
+        "bearing": 11.999901061425362
+      },
+      "deckPasses": 205,
+      "webgl2": true,
+      "hash": "c4d0ee419989476d3376fc00b2e062aeb36d5acddcc34661be6fce0f3b2b98ae",
+      "blackFraction": 0,
+      "cyanFraction": 0.03268872170781893,
+      "pinkFraction": 0.0048265496399176955,
+      "elapsedMs": 851.6674139999959,
+      "validated": true
+    },
+    {
+      "frame": 99,
+      "camera": {
+        "center": [
+          125,
+          35.5
+        ],
+        "zoom": 4.5,
+        "pitch": 48,
+        "bearing": 12
+      },
+      "deckPasses": 207,
+      "webgl2": true,
+      "hash": "bddd76b59e53fb2f3b65d1dd7eeaa4b5109d45bdb6d382bb86bcecf02fe9c57f",
+      "blackFraction": 0,
+      "cyanFraction": 0.0326806841563786,
+      "pinkFraction": 0.004837601273148148,
+      "elapsedMs": 1020.6804069999926,
+      "validated": true
+    }
+  ],
+  "sentinels": [
+    {
+      "frame": 99,
+      "match": true,
+      "hash": "bddd76b59e53fb2f3b65d1dd7eeaa4b5109d45bdb6d382bb86bcecf02fe9c57f"
+    },
+    {
+      "frame": 50,
+      "match": true,
+      "hash": "a275c90f6fa1c53b8657376e423ebb07a06d58bbae06a983e4ca5c4f124263b5"
+    },
+    {
+      "frame": 0,
+      "match": true,
+      "hash": "c3f458e159cb4300af141b82b3b49b0876f134c3bafa0c5d09d9add3f79b3241"
+    },
+    {
+      "frame": 75,
+      "match": true,
+      "hash": "c33c4d04307f48b301bbea133aec1be4fcc26a9c17c3eed6e911802f8a582768"
+    },
+    {
+      "frame": 25,
+      "match": true,
+      "hash": "897302cdde041810663fc28635d87dce205254d1abc9a4af8e762d3d1b62ee5f"
+    }
+  ],
+  "errors": [],
+  "preflight": {
+    "status": "ready-for-browser-probe",
+    "checks": {
+      "node": {
+        "ok": true,
+        "detail": "v24.13.1"
+      },
+      "ffmpeg": {
+        "ok": true,
+        "detail": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "ffprobe": {
+        "ok": true,
+        "detail": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+      },
+      "vite": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/vite/dist/node/index.js"
+      },
+      "playwright": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/playwright/index.js"
+      },
+      "pngjs": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/pngjs/lib/png.js"
+      },
+      "maplibre-gl": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/maplibre-gl/dist/maplibre-gl.js"
+      },
+      "@deck.gl/core": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/core/dist/index.cjs"
+      },
+      "@deck.gl/layers": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/layers/dist/index.cjs"
+      },
+      "@deck.gl/mapbox": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/mapbox/dist/index.cjs"
+      },
+      "chrome": {
+        "ok": true,
+        "detail": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+      }
+    },
+    "note": "This checks prerequisites only. WebGL2, fonts, rendering and codecs require the real spike."
+  },
+  "webglBackend": "swiftshader",
+  "chromium": "155.0.8059.79",
+  "webgl": {
+    "supported": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)"
+  },
+  "config": {
+    "version": 1,
+    "sources": {
+      "spike/main.ts": "8bee913330c1deb24159f0eba2b5df6fbf45d4ddea8ec0f4781e3c92f8c37fe4",
+      "spike/state.ts": "6f4844875198d005f90c32fe051ae820c158322dbf0e3d66ecd41cb14d8ccecd",
+      "spike/camera.ts": "9f6de04e1d18e706a69d58ae4350ed61f08d8fa116e7a27553575972b89d91e8",
+      "spike/frame-ready.ts": "cf2aea12ddbb888f2290c940038241416093e494db512e3c64cb4bd69cb94257",
+      "spike/index.html": "b394a91a3836301e9bc7cc47387377a0a74bb23615219b14df091c1d76675119",
+      "scripts/browser-options.mjs": "089a2e5fb3ad7d0436f6deb291df049bf4814bea8f0a6605aea7b55a1fde3d89",
+      "scripts/pixels.mjs": "51e201ec7bc2a647e7714816f3cd023bc960cd59e27a181cb73d1e8b94555a8f",
+      "package-lock.json": "4a850ad51e2c363342c1c394ca7214e562e7e7514569f03aed6f2e418b8f7de2"
+    },
+    "node": "v24.13.1",
+    "chromium": "155.0.8059.79",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "backend": "swiftshader",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "ffmpeg": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "identity": "b106fd7708f0cd07e72af2925d5ee81cfa678fbee59afeba950ed97edf1fd3fe",
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1088,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 51200,
+        "duration": "3.333333",
+        "bit_rate": "208204",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "100",
+        "nb_read_frames": "100",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      }
+    ]
+  },
+  "sha256": "c13be68b6dc98c6e1898efc6e84d94a556d1c15db1224c933897621e602a264c",
+  "note": "Mode 2 candidate passed. Remotion comparison and real licensed geographical data still required before the full M0 gate."
+}

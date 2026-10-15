@@ -1,0 +1,20 @@
+import {readFile} from 'node:fs/promises';
+import path from 'node:path';
+import {parseArgs} from 'node:util';
+import {ProjectSchema} from '../packages/schema/src/project.schema.ts';
+import {totalFrames} from '../packages/motion/src/timeline.ts';
+import {validateGeoJson,assertFeatureReferences} from '../packages/geodata/src/validate.ts';
+import {verifyProjectAssets} from '../packages/assets/src/registry.ts';
+import {assertRenderableStyles} from '../packages/styles/src/support.ts';
+import {assertSupportedTransitions} from '../packages/motion/src/transition.ts';
+const {values}=parseArgs({options:{input:{type:'string',short:'i'}}});
+if(!values.input) throw new Error('Usage: npm run video:validate -- --input examples/mixed-acd.json');
+const input=path.resolve(values.input);
+const project=ProjectSchema.parse(JSON.parse(await readFile(input,'utf8')));
+assertRenderableStyles(project);assertSupportedTransitions(project);
+if(!['local-synthetic','local-dark'].includes(project.map.styleId)) throw new Error('STYLE_NOT_SUPPORTED_YET');
+await verifyProjectAssets(project,path.resolve(import.meta.dirname,'..'));
+const geo=validateGeoJson(JSON.parse(await readFile(path.resolve(import.meta.dirname,'..',project.map.geojsonPath),'utf8')));
+for(const scene of project.scenes) assertFeatureReferences(scene.regions,geo);
+console.log(JSON.stringify({status:'valid',projectId:project.projectId,
+  scenes:project.scenes.length,frames:totalFrames(project),durationSeconds:totalFrames(project)/project.output.fps},null,2));

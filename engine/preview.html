@@ -1,0 +1,22 @@
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Map Video Engine · Preview</title></head>
+<body><main>
+  <header><h1>Map Video Engine</h1><p>Preview theo frame · A / C / D · <a href="/engine/evidence.html">Evidence review</a></p></header>
+  <section class="controls">
+    <label>Mẫu <select id="project">
+      <option value="earth-globe-intro.json">Earth globe · 4 giây</option>
+      <option value="japan-china-map.json">A → C → D · dọc</option>
+      <option value="japan-china-wide.json">A → C → D · ngang</option>
+      <option value="style-a-variants.json">Style A · 3 kiểu</option>
+      <option value="style-c-variants.json">Style C · 2 kiểu</option>
+      <option value="style-d-variants.json">Style D · 2 kiểu</option>
+      <option value="style-d-vi.json">Style D · tiếng Việt</option>
+      <option value="style-d-ja.json">Style D · tiếng Nhật</option>
+    </select></label>
+    <label>Frame <input id="frame-number" type="number" min="0" step="1" value="0"></label>
+    <span id="scene">Đang tải…</span>
+  </section>
+  <section class="custom"><label>Project JSON cục bộ <input id="custom-path" type="text" placeholder="outputs/projects/acd-composed.json"></label><button id="open-project" type="button">Mở project</button></section>
+  <input id="timeline" aria-label="Timeline" type="range" min="0" max="299" step="1" value="0">
+  <div id="stage"><div id="canvas"><iframe id="video" title="Video preview"></iframe><div id="fade"></div></div></div>
+  <p id="status" role="status"></p>
+</main><script type="module" src="/engine/preview.ts"></script></body></html>

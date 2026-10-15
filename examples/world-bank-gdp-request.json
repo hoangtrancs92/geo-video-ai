@@ -1,0 +1,11 @@
+{
+  "projectId":"japan-china-gdp-2020",
+  "sourceId":"wb-wdi-gdp-2020",
+  "indicatorCode":"NY.GDP.MKTP.CD",
+  "countryCodes":["JP","CN"],
+  "fromYear":2020,
+  "toYear":2020,
+  "unit":"current US dollars",
+  "priceBasis":"nominal",
+  "currency":"USD"
+}

@@ -1,0 +1,265 @@
+{
+  "status": "capture-passed",
+  "input": "examples/japan-china-wide.json",
+  "output": "outputs/wide-transition-recheck.mp4",
+  "frames": 12,
+  "startFrame": 0,
+  "sampleFrames": [
+    99,
+    100,
+    103,
+    104,
+    107,
+    108,
+    199,
+    200,
+    203,
+    204,
+    207,
+    208
+  ],
+  "totalProjectFrames": 300,
+  "partial": true,
+  "errors": [],
+  "sentinels": [
+    {
+      "frame": 99,
+      "scene": "a",
+      "style": "A",
+      "deckPasses": 8,
+      "hash": "dbb7e691932f40e49a85694a4ab207469e413fdecd11503a08f21097ed1abc54",
+      "blackFraction": 0,
+      "cyanFraction": 0.2036795910493827,
+      "pinkFraction": 0.0037093299897119343
+    },
+    {
+      "frame": 100,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 19,
+      "hash": "9afe992484755f20890d9654267b1f8613cebb0322877b6122e46c881144f051",
+      "blackFraction": 0,
+      "cyanFraction": 0.20525997460133744,
+      "pinkFraction": 0.003707320601851852
+    },
+    {
+      "frame": 103,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 30,
+      "hash": "bd518036602441ad9a5e508af7a8fd3cd4edfcb8dbe27cb1411d9321376f8cf5",
+      "blackFraction": 0,
+      "cyanFraction": 0,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 104,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 34,
+      "hash": "580eabe2124acb9efacfdac20cd544ae599f90684c3f3f8001011ed5fd4c1f62",
+      "blackFraction": 0,
+      "cyanFraction": 0,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 107,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 36,
+      "hash": "52dfc915370daf26a9227bc693f18a56e122fb0d65216efd0c676e796487b603",
+      "blackFraction": 0,
+      "cyanFraction": 0.00018486368312757202,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 108,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 38,
+      "hash": "c8909fe290c521352cf1d0f96331b9279805b5338257131b57cef830d1bccf71",
+      "blackFraction": 0,
+      "cyanFraction": 0.0035294897762345677,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 199,
+      "scene": "c",
+      "style": "C",
+      "deckPasses": 41,
+      "hash": "f9daf7eac85c795f93ba2bb201ba8ad1d18595e0f5bdeb0f45c9eb49db5845b1",
+      "blackFraction": 0,
+      "cyanFraction": 0.0018516509130658437,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 200,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 45,
+      "hash": "9327839cc84f0db9224d10c12ed92b06db8deb010decaa2d7bd7a140efd3538c",
+      "blackFraction": 0,
+      "cyanFraction": 0.0000884130658436214,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 203,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 49,
+      "hash": "c0496dcf5fc3f5041f2b1ba6dbf5be2bafc1698349c5817ccd56feb6bba8783e",
+      "blackFraction": 0,
+      "cyanFraction": 0,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 204,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 51,
+      "hash": "a09356fff7b1bd466799d7640a935a6ad29167aaed0372cf955f73f1fc90d59d",
+      "blackFraction": 0,
+      "cyanFraction": 0,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 207,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 53,
+      "hash": "857693d6a34582b6d1574f9da27dffa597dca49f6a79534b89cb285a11f80650",
+      "blackFraction": 0,
+      "cyanFraction": 0.0070971579218107,
+      "pinkFraction": 0
+    },
+    {
+      "frame": 208,
+      "scene": "d",
+      "style": "D",
+      "deckPasses": 55,
+      "hash": "e7dafecf29c528a624760fad7e30339c6c1f6ef60a0216063bac3835aa4a97ae",
+      "blackFraction": 0,
+      "cyanFraction": 0.002416288901748971,
+      "pinkFraction": 0
+    }
+  ],
+  "preflight": {
+    "status": "ready-for-browser-probe",
+    "checks": {
+      "node": {
+        "ok": true,
+        "detail": "v24.13.1"
+      },
+      "ffmpeg": {
+        "ok": true,
+        "detail": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "ffprobe": {
+        "ok": true,
+        "detail": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+      },
+      "vite": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/vite/dist/node/index.js"
+      },
+      "playwright": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/playwright/index.js"
+      },
+      "pngjs": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/pngjs/lib/png.js"
+      },
+      "maplibre-gl": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/maplibre-gl/dist/maplibre-gl.js"
+      },
+      "@deck.gl/core": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/core/dist/index.cjs"
+      },
+      "@deck.gl/layers": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/layers/dist/index.cjs"
+      },
+      "@deck.gl/mapbox": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/mapbox/dist/index.cjs"
+      },
+      "chrome": {
+        "ok": true,
+        "detail": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+      }
+    },
+    "note": "This checks prerequisites only. WebGL2, fonts, rendering and codecs require the real spike."
+  },
+  "chromium": "155.0.8059.79",
+  "intentionalHoldFrames": 0,
+  "blendedFrames": 8,
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 6144,
+        "duration": "0.400000",
+        "bit_rate": "1525600",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "12",
+        "nb_read_frames": "12",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      }
+    ]
+  },
+  "sha256": "34a5d2e45875e0f92d9389351600d7e0394293c4ecf011e0de0031930191f264"
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Map Video Engine · Evidence review</title>
+  <style>
+    :root {font: 15px/1.5 system-ui,sans-serif;color:#e8edf5;background:#111827}
+    body {max-width:1200px;margin:auto;padding:24px}
+    a {color:#93c5fd} h1 {margin-bottom:0} h2 {margin-top:32px}
+    .muted {color:#aebbd0} .controls {display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:24px 0}
+    .summary {display:flex;gap:12px;flex-wrap:wrap} .summary span {background:#243247;padding:8px 12px;border-radius:6px}
+    .table-wrap {overflow:auto} table {border-collapse:collapse;width:100%;min-width:650px}
+    th,td {padding:9px;text-align:left;vertical-align:top;border-bottom:1px solid #34435a}
+    th {color:#bcd2f0} code {overflow-wrap:anywhere} .warn {color:#fbbf24}
+    #status {min-height:1.5em} input {max-width:100%}
+  </style>
+</head>
+<body>
+  <a href="/engine/preview.html">← Video preview</a>
+  <h1>Evidence review</h1>
+  <p class="muted">Xem nguồn, quan sát và claim trong dossier v1.2. Trạng thái duyệt được giữ nguyên từ JSON. Kiểm tra file nguồn và SHA-256 bằng <code>npm run evidence:validate</code>.</p>
+  <div class="controls">
+    <button id="sample" type="button">Mở dossier mẫu</button>
+    <label>Hoặc chọn JSON cục bộ <input id="file" type="file" accept=".json,application/json"></label>
+  </div>
+  <p id="status" role="status"></p>
+  <div id="summary" class="summary"></div>
+  <section><h2>Nguồn</h2><div id="sources" class="table-wrap"></div></section>
+  <section><h2>Quan sát</h2><div id="observations" class="table-wrap"></div></section>
+  <section><h2>Claim</h2><div id="claims" class="table-wrap"></div></section>
+  <section><h2>Lịch sử duyệt</h2><div id="reviews" class="table-wrap"></div></section>
+  <section><h2>Khoảng trống nghiên cứu</h2><div id="gaps" class="table-wrap"></div></section>
+  <script type="module" src="/engine/evidence.ts"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+  "status": "capture-passed",
+  "kind": "smoke-only",
+  "totalFrames": 100,
+  "fps": 30,
+  "durationSeconds": 3.3333333333333335,
+  "chunks": [
+    {
+      "id": 0,
+      "start": 0,
+      "count": 50,
+      "identity": "0c378f456f15d4020ec2caf26cd5e920dc681474cfe761eca0fc08c17d868e1b",
+      "status": "verified",
+      "captureMs": 48216.992055999996,
+      "firstHash": "c3f458e159cb4300af141b82b3b49b0876f134c3bafa0c5d09d9add3f79b3241",
+      "lastHash": "2b26108534ebb26fca17d0ee257aea0339b1a07ca231db28a31f311b170fb9da",
+      "maxBlack": 0,
+      "sha256": "cab1a24b76bda6467cdad1297203eea37020ce3527f02960d00375ca525f64df",
+      "elapsedMs": 63517.990614,
+      "reused": true
+    },
+    {
+      "id": 1,
+      "start": 50,
+      "count": 50,
+      "identity": "0c378f456f15d4020ec2caf26cd5e920dc681474cfe761eca0fc08c17d868e1b",
+      "status": "verified",
+      "captureMs": 46624.68280400001,
+      "firstHash": "90feca8fe921d6f3c7a451f95a97302b083a383ef7249e9e9d6f2877b63211f6",
+      "lastHash": "11ab3ab64356c5a3dc6b58b929bf410d796f06f9eb49aa98f073131dbc4abeac",
+      "maxBlack": 0,
+      "sha256": "80e95ec970d8c79ad88012ab02b2255f7d4c308c4cf95868659081758dfee47d",
+      "elapsedMs": 69337.291403
+    }
+  ],
+  "errors": [],
+  "resourceSamples": [
+    {
+      "chunk": 1,
+      "nodeRssBytes": 321056768,
+      "hostFreeBytes": 45248512,
+      "hostTotalBytes": 17179869184,
+      "browserRssBytes": 624340992,
+      "browserCpuSeconds": 161.62143199999997,
+      "vramBytes": null,
+      "vramNote": "No portable VRAM measurement; SwiftShader uses CPU memory."
+    }
+  ],
+  "memoryPolicy": "One PNG plus decoded pixels at a time; at most one chunk PNG directory and one QA directory.",
+  "syntheticWorkload": true,
+  "narration": "none: technical benchmark only",
+  "maxDiskBytes": 8589934592,
+  "preflight": {
+    "status": "ready-for-browser-probe",
+    "checks": {
+      "node": {
+        "ok": true,
+        "detail": "v24.13.1"
+      },
+      "ffmpeg": {
+        "ok": true,
+        "detail": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers"
+      },
+      "ffprobe": {
+        "ok": true,
+        "detail": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers"
+      },
+      "vite": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/vite/dist/node/index.js"
+      },
+      "playwright": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/playwright/index.js"
+      },
+      "pngjs": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/pngjs/lib/png.js"
+      },
+      "maplibre-gl": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/maplibre-gl/dist/maplibre-gl.js"
+      },
+      "@deck.gl/core": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/core/dist/index.cjs"
+      },
+      "@deck.gl/layers": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/layers/dist/index.cjs"
+      },
+      "@deck.gl/mapbox": {
+        "ok": true,
+        "detail": "/Users/tranhoang/Desktop/untitled folder/googleEarth/geo/map-video-engine/node_modules/@deck.gl/mapbox/dist/index.cjs"
+      },
+      "chrome": {
+        "ok": true,
+        "detail": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+      }
+    },
+    "note": "This checks prerequisites only. WebGL2, fonts, rendering and codecs require the real spike."
+  },
+  "webgl": {
+    "supported": true,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "identity": "0c378f456f15d4020ec2caf26cd5e920dc681474cfe761eca0fc08c17d868e1b",
+  "config": {
+    "version": 1,
+    "total": 100,
+    "size": 50,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "backend": "swiftshader",
+    "sources": {
+      "spike/main.ts": "8bee913330c1deb24159f0eba2b5df6fbf45d4ddea8ec0f4781e3c92f8c37fe4",
+      "spike/state.ts": "6f4844875198d005f90c32fe051ae820c158322dbf0e3d66ecd41cb14d8ccecd",
+      "spike/camera.ts": "9f6de04e1d18e706a69d58ae4350ed61f08d8fa116e7a27553575972b89d91e8",
+      "spike/frame-ready.ts": "cf2aea12ddbb888f2290c940038241416093e494db512e3c64cb4bd69cb94257",
+      "spike/index.html": "b394a91a3836301e9bc7cc47387377a0a74bb23615219b14df091c1d76675119",
+      "scripts/scale-spike.mjs": "44b4bd8f8ed268b57cc8e2dd035c4de929b68f649d6d99eca1d3b7f5217324e1",
+      "scripts/chunks.mjs": "70bc8c6aecea46220c5f0853d1fd9ff9ecc8a6e910e85c893c8ff836eb242a09",
+      "scripts/browser-options.mjs": "089a2e5fb3ad7d0436f6deb291df049bf4814bea8f0a6605aea7b55a1fde3d89",
+      "scripts/pixels.mjs": "51e201ec7bc2a647e7714816f3cd023bc960cd59e27a181cb73d1e8b94555a8f",
+      "package-lock.json": "4a850ad51e2c363342c1c394ca7214e562e7e7514569f03aed6f2e418b8f7de2"
+    },
+    "ffmpeg": "ffmpeg version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.2-tessus  https://evermeet.cx/ffmpeg/  Copyright (c) 2007-2026 the FFmpeg developers",
+    "node": "v24.13.1",
+    "chromium": "155.0.8059.79",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "video": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1088,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 51200,
+        "duration": "3.333333",
+        "bit_rate": "160116",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "100",
+        "nb_read_frames": "100",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      }
+    ]
+  },
+  "sha256": "c54576697d007bca88736e621f1404b1eeaf82b5e99b25de5341c5f3dbcca682",
+  "qa": "Every chunk decoded and pixel-checked in full; final stream-copy concat metadata verified.",
+  "attemptElapsedMs": 76242.50480699999,
+  "peakWorkspaceBytes": 8232768,
+  "renderedFramesThisAttempt": 50,
+  "captureMsThisAttempt": 46624.68280400001,
+  "projected20MinCaptureSeconds": 33569.771618880004,
+  "projectionNote": "Capture-only extrapolation; excludes encoding/QA/startup, not a measured 20-minute render. Synthetic workload only.",
+  "storageBytes": 167338
+}

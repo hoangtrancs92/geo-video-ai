@@ -1,0 +1,66 @@
+{
+  "provider": "macos_say",
+  "voiceId": "Linh",
+  "rateWpm": 130,
+  "targetSeconds": 900,
+  "output": {
+    "width": 1920,
+    "height": 1080
+  },
+  "rights": {
+    "license": "macOS built-in voice, local project use",
+    "attribution": "Voice generated locally with Apple Linh"
+  },
+  "segments": [
+    {
+      "id": "long-segment-1",
+      "text": "Cùng nói về xe điện, nhưng Trung Quốc và Nhật Bản đang hiện ra như hai thị trường rất khác nhau. Để hiểu khác biệt ấy, chúng ta bắt đầu bằng một câu hỏi đơn giản: xe nào được tính là xe điện? Trong Global EV Outlook 2026, IEA dùng nhóm electric cars cho xe chạy pin hoàn toàn và xe hybrid có thể sạc từ bên ngoài. Xe hybrid thông thường, loại tự tạo điện trong khi chạy và không cắm sạc, được trình bày tách riêng. Đây là ranh giới quan trọng của toàn bộ video. Nếu gộp hybrid thông thường vào doanh số xe điện ở Nhật, rồi so với một con số không gộp loại đó ở Trung Quốc, biểu đồ sẽ gây hiểu lầm ngay từ phút đầu. Theo cùng định nghĩa IEA, trong năm 2025 Trung Quốc bán hơn mười ba triệu xe điện; Nhật Bản chỉ nhỉnh hơn một trăm nghìn. Chênh lệch quy mô là rõ, nhưng nó chưa trả lời vì sao mỗi thị trường như vậy. Các phần sau sẽ lần lượt nhìn vào doanh số, cách sản xuất, chi phí và khảo sát người mua. Chúng ta sẽ giữ giới hạn: không suy ra tương lai của từng hãng chỉ từ vài chỉ tiêu của một năm.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-2",
+      "text": "Năm 2025, theo IEA, doanh số xe điện trên toàn thế giới vượt hai mươi triệu chiếc. Cụm từ vượt hai mươi triệu là một mốc dưới, không phải một số chính xác đến từng chiếc. Trong bức tranh ấy, Trung Quốc là thị trường rất lớn: hơn mười ba triệu xe điện được bán tại đây. Gần năm mươi lăm phần trăm ô tô mới bán ở Trung Quốc thuộc nhóm xe điện theo định nghĩa vừa nêu. Hai cách nhìn này bổ sung cho nhau. Doanh số tuyệt đối cho biết quy mô của thị trường. Tỷ trọng trong tổng xe mới cho biết xe điện đã hiện diện nhiều đến mức nào trong lựa chọn mua ô tô. Khi một thị trường vừa có lượng bán lớn vừa có tỷ trọng cao, nó tạo nền cho sản xuất ở quy mô lớn và cho các chuỗi cung ứng phục vụ loại xe ấy. Đó là một cách diễn giải hợp lý từ dữ liệu, không phải phép đo trực tiếp về lợi nhuận của từng công ty. Điều ta có thể khẳng định là mức độ phổ biến trong doanh số mới của Trung Quốc năm 2025 rất cao so với Nhật Bản, khi dùng cùng thước đo IEA.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-3",
+      "text": "Ở Trung Quốc, hơn mười ba triệu xe điện bán trong năm 2025 không có nghĩa thị trường luôn tăng với cùng một tốc độ. IEA cho biết tốc độ tăng doanh số năm này dưới hai mươi phần trăm so với năm trước. Đây vẫn là tăng trưởng, chỉ là nhịp tăng thấp hơn giai đoạn trước. Xe điện chiếm gần năm mươi lăm phần trăm ô tô mới, còn số xe điện đang lưu hành trên đường được IEA ước tính khoảng bốn mươi bốn triệu vào cuối năm. Cần phân biệt ba lớp số liệu: xe bán trong một năm, tỷ lệ xe điện trong doanh số mới, và số xe còn đang chạy. Một chiếc xe đã bán các năm trước góp vào lượng lưu hành nhưng không được cộng lại vào doanh số năm 2025. Ngược lại, tỷ trọng doanh số mới có thể lên cao khá nhanh trong khi cả đội xe ngoài đường cần nhiều năm để thay đổi. Khi trình bày trên màn hình, mỗi lớp dữ liệu sẽ có nhãn riêng. Phần này mô tả diễn biến của thị trường, không kết luận mọi người mua xe Trung Quốc đều muốn cùng một loại xe.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-4",
+      "text": "Nhật Bản cho thấy một cấu trúc khác. IEA ước lượng doanh số xe điện năm 2025 chỉ nhỉnh hơn một trăm nghìn chiếc và tỷ trọng dưới ba phần trăm trong ô tô mới. Cùng lúc, hybrid thông thường chiếm khoảng một phần ba doanh số ô tô. Hybrid loại này vẫn dùng động cơ xăng, nhưng kết hợp mô tơ điện và không cần cắm sạc ngoài. Vì thế, không thể lấy tỷ trọng hybrid để gọi là tỷ trọng xe điện theo định nghĩa IEA. IEA liên hệ vai trò lớn của hybrid với chiến lược lâu dài của các hãng Nhật nhằm đáp ứng yêu cầu tiết kiệm nhiên liệu. Đó là một diễn giải của IEA, không phải lời giải thích duy nhất cho quyết định của tất cả người mua. Nếu chỉ nhìn một con số dưới ba phần trăm, ta dễ kết luận quá nhanh rằng điện hóa không quan trọng ở Nhật. Thực tế, câu hỏi phù hợp hơn là công nghệ điện hóa nào đang chiếm vai trò lớn trong doanh số. Với bộ số liệu này, câu trả lời rõ nhất là hybrid thông thường, trong khi BEV và PHEV vẫn là nhóm nhỏ.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-5",
+      "text": "Có thể bạn đã thấy một số khác về Trung Quốc: CAAM báo cáo bán mười sáu phẩy bốn chín triệu xe năng lượng mới trong năm 2025. Con số ấy không giống mốc hơn mười ba triệu xe điện của IEA. Không nên chọn một trong hai rồi tuyên bố nguồn kia sai. Trước hết, chúng mang tên chỉ tiêu khác nhau: CAAM nói new energy vehicles, còn IEA nói electric cars và nêu rõ nhóm xe chạy pin cùng hybrid sạc ngoài. Phạm vi phương tiện, khâu ghi nhận và phương pháp của các nguồn cần được đối chiếu trước khi tính một mức chênh lệch. Trong video này, biểu đồ so sánh Trung Quốc với Nhật Bản chỉ dùng chỉ tiêu electric cars của IEA cho cả hai nước. Số CAAM được nhắc riêng như một thống kê do hiệp hội ngành xe Trung Quốc công bố, không được dùng để tính tỷ lệ với số Nhật của IEA. Đây là ví dụ về một nguyên tắc đơn giản khi đọc kinh tế: trước khi so hai con số, hãy đọc tên và phạm vi đo của chúng. Cùng nói về xe, nhưng không nhất thiết cùng đo một thứ.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-6",
+      "text": "Bức tranh thị trường chưa phải toàn bộ câu chuyện. Theo IEA, Trung Quốc sản xuất khoảng mười sáu triệu xe điện trong năm 2025 và xuất khẩu hơn hai phẩy năm triệu chiếc. Sản lượng nhà máy là số xe được chế tạo. Doanh số nội địa là số xe được bán trong thị trường Trung Quốc. Xuất khẩu là số xe rời Trung Quốc, nhưng thời điểm xuất khẩu không nhất thiết trùng thời điểm người mua ở nước ngoài nhận xe. Vì vậy, không cộng hoặc trừ các mốc ấy một cách tùy tiện để tạo ra một kết luận về hàng tồn kho. Điều rõ hơn là quy mô sản xuất đã vượt nhu cầu nội địa theo phân tích IEA, và xuất khẩu trở thành một phần quan trọng của hoạt động ngành xe điện. Khả năng sản xuất nhiều xe giúp duy trì chuỗi cung ứng, nhưng bản thân khối lượng sản xuất không cho ta biết biên lợi nhuận hay chất lượng của từng mẫu. Khi minh họa trên bản đồ, mũi tên xuất khẩu chỉ là ký hiệu luồng thương mại; nó không đại diện cho một tuyến hàng cụ thể. Mục tiêu của phần này là phân biệt ba khái niệm thường bị trộn lẫn trên các tiêu đề tin tức.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-7",
+      "text": "Một chiếc xe điện gắn với cả chuỗi cung ứng pin, chứ không chỉ nhà máy lắp ráp xe. IEA cho biết Trung Quốc chiếm hơn tám mươi phần trăm sản lượng cell pin xe điện toàn cầu trong năm 2025. Cell là phần lõi của bộ pin; sản lượng cell không phải doanh số xe. Trong tài liệu phân tích chi phí, IEA còn ước tính hiệu quả sản xuất giải thích hơn bốn mươi phần trăm khoảng cách chi phí làm pin giữa Trung Quốc và châu Âu. Phép so này là với châu Âu, không phải với Nhật Bản. IEA cũng nêu việc dùng rộng rãi hóa học lithium sắt phosphate, thường viết tắt là LFP, như một yếu tố giúp giảm chi phí vật liệu ở Trung Quốc. Ta không thể từ đó kết luận tất cả xe điện Trung Quốc cùng dùng một loại pin, hay mọi xe Nhật có pin đắt hơn. Phần đáng chú ý là quy mô, kinh nghiệm vận hành nhà máy và lựa chọn hóa học pin cùng ảnh hưởng đến giá thành. Khi chuyển thông tin này thành hình, chúng ta ghi rõ nhãn sản lượng cell và tránh biến một chỉ số của pin thành một chỉ số của ô tô.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-8",
+      "text": "Vì sao IEA nói xe điện sản xuất ở Trung Quốc có lợi thế chi phí? Tài liệu phân tích của cơ quan này đặt một phần câu trả lời ở quy mô nhà máy: khi sản lượng lớn, chi phí cố định được chia cho nhiều xe hơn. Phần tiếp theo nằm ở pin, vì chi phí pin thấp hơn làm lợi thế sản xuất xe điện lớn hơn lợi thế đã có ở xe động cơ đốt trong. Việc dùng LFP rộng rãi cũng góp phần giảm nhu cầu vật liệu đắt hơn. IEA đồng thời đánh giá trợ cấp và nguồn vốn ưu đãi trong giai đoạn đầu đã giúp các nhà sản xuất mở rộng quy mô, nhưng không đủ để một mình giải thích chênh lệch giá về sau. Đây là các yếu tố trong phân tích chi phí sản xuất, không phải bảng giá bán lẻ của từng mẫu xe. Thuế, trang bị, kênh phân phối hay thị trường nhận xe có thể khiến giá người mua thấy khác với chi phí xuất xưởng. Video này vì vậy chỉ nói về các cơ chế được IEA nêu, không gắn nhãn mọi xe Trung Quốc là rẻ hơn mọi xe Nhật.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-9",
+      "text": "Bên cạnh doanh số đã xảy ra, một khảo sát có thể cho thấy người mua đang nghĩ gì. JAMA báo cáo bốn mươi sáu phần trăm người trả lời cân nhắc nhóm xe điện hóa cho chiếc xe tiếp theo. Nhóm này gồm hybrid thông thường, hybrid sạc ngoài, xe chạy pin và cả xe pin nhiên liệu. Vì vậy, bốn mươi sáu phần trăm không phải tỷ trọng người định mua xe thuần điện, càng không phải doanh số xe điện đã bán. Trong khảo sát, hybrid thông thường đứng đầu khi người trả lời xếp thứ tự ưu tiên xe thân thiện môi trường; BEV được nêu với nhiều mối lo hơn các nhóm khác. JAMA cũng cho biết trong nhóm người dùng BEV hoặc PHEV ở nhà riêng, việc sạc tại nhà giữ vai trò chính. IEA bổ sung rằng khả năng đỗ xe riêng và hạ tầng sạc là các hạn chế đối với doanh số xe điện tại Nhật. Các kết quả này giúp giải thích bối cảnh lựa chọn, nhưng không đo chính xác mỗi yếu tố làm giảm bao nhiêu chiếc xe bán ra. Ta nên đọc khảo sát như ý kiến của nhóm được hỏi, rồi đặt cạnh số doanh số thực tế.",
+      "targetSeconds": 90
+    },
+    {
+      "id": "long-segment-10",
+      "text": "Sau tất cả, sự khác biệt quan trọng nhất trong dữ liệu năm 2025 là mức độ phổ biến của xe điện sạc ngoài. Theo cùng định nghĩa IEA, nhóm xe này gần năm mươi lăm phần trăm doanh số ô tô mới ở Trung Quốc, nhưng dưới ba phần trăm ở Nhật Bản. Nhật Bản lại có hybrid thông thường ở khoảng một phần ba doanh số. Trung Quốc không chỉ là nơi tiêu thụ lớn mà còn sản xuất khoảng mười sáu triệu xe điện theo IEA. Khảo sát JAMA cho thấy sự quan tâm tới điện hóa ở Nhật rộng hơn doanh số BEV và PHEV, nhưng không cho phép đổi ý định thành số xe đã bán. Những nhận định ấy mô tả thị trường và chuỗi sản xuất của một năm, chưa chứng minh hãng nào sẽ dẫn đầu trong thập kỷ tới. Khi xem các con số khác từ báo chí, hãy hỏi ba điều: đây là xe thuần điện, hybrid sạc ngoài hay cả hybrid thông thường; đây là sản xuất, xuất khẩu hay bán lẻ; và đây là số liệu thực tế hay ý định khảo sát. Trả lời đúng ba câu hỏi đó giúp chúng ta đọc cuộc đua xe điện tỉnh táo hơn.",
+      "targetSeconds": 90
+    }
+  ]
+}
